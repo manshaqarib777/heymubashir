@@ -136,7 +136,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
                             <i class="fa fa-pencil" aria-hidden="true" style="font-size: 27px;"></i></p>
                         </div>
                         <div>
-                            <p class="after-digit-title" style="color: #00A2AE;" >Information about the goods</p>
+                            <p class="after-digit-title" style="color: #00A2AE;" ><?php echo $lang['courier1'] ?></p>
                         </div>
                     </div>
                 </div>
@@ -148,7 +148,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
                            <p class="pt-2 digit">2.</p>
                        </div>
                        <div>
-                           <p class="after-digit-title">Date</p>
+                           <p class="after-digit-title"><?php echo $lang['courier2'] ?></p>
                        </div>
                    </div>
                </div>
@@ -160,7 +160,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
                        <p class="pt-2 digit">3.</p>
                    </div>
                    <div>
-                       <p class="after-digit-title">Address</p>
+                       <p class="after-digit-title"><?php echo $lang['courier3'] ?></p>
                    </div>
                </div>
            </div>
@@ -172,7 +172,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
                     <p class="pt-2 digit">4.</p>
                 </div>
                 <div>
-                    <p class="after-digit-title">Delivery options</p>
+                    <p class="after-digit-title"><?php echo $lang['courier4'] ?></p>
                 </div>
             </div>
         </div>
@@ -188,7 +188,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
         <div class=" col-xs-12 col-md-12 col-lg-8 col-xl-8 step1" id="step1">
             <div class="row mt-3">
                 <div class="col-xs-12 col-xl-12">
-                    <p class="info-about-cargo-title">INFORMATION ABOUT YOUR CARGO ITEMS</p>
+                    <p class="info-about-cargo-title"><?php echo $lang['courier5'] ?></p>
                 </div>
             </div>
             <!-- zip location form -->
@@ -204,7 +204,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
                 <div class="row">
                     <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
                         <div class="form-group">
-                          <label for="" class="input-label m-0">Pickup location</label>
+                          <label for="" class="input-label m-0"><?php echo $lang['courier6'] ?></label>
 
                           <input type="search" name="pickLocation" id="pickLocation" class="form-control rounded-0 zip-input border-gray typeahead" 
                           placeholder="ZIP/Location" aria-describedby="helpId" required value="<?php echo @$result['pickLocation'];?>">  
@@ -213,7 +213,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
                   </div>
                   <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="form-group p-0">
-                        <label for="" class="input-label m-0">Delivery location</label>
+                        <label for="" class="input-label m-0"><?php echo $lang['courier7'] ?></label>
                         <input type="search" name="deliveryLocation" id="deliveryLocation"  class="form-control rounded-0 zip-input border-gray typeahead" 
                         placeholder="ZIP/Location" aria-describedby="helpId" value="<?php echo @$result['deliveryLocation'];?>">
                         <!-- <small id="helpId" class="text-muted">Help text</small> -->
@@ -223,7 +223,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
             <div class="row">
                <div class="col-12">
                   <div class="form-group p-0">
-                    <label for="" class="input-label m-0">Tracking Number</label>
+                    <label for="" class="input-label m-0"><?php echo $lang['courier8'] ?></label>
                     <div class="input-group mb-3">
                        <div class="input-group-prepend">
                          <span class="input-group-text" id="add_tracking"><?php echo @$result['letter_or'];?></span>
@@ -244,12 +244,12 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
           foreach (json_decode($result['combine_data'],true) as $key => $value) {
             ?>
             <div class="row mt-5">
-                <div class="col-12 cargo-item-head">CARGO ITEM: <?php echo $key+1;?></div>
+                <div class="col-12 cargo-item-head"><?php echo $lang['courier9'] ?> <?php echo $key+1;?></div>
             </div>
             <!-- 1st cargo row -->
             <div class="row">
                 <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
-                    <label class="m-0 cargo-label">What</label>
+                    <label class="m-0 cargo-label"><?php echo $lang['courier10'] ?></label>
                     <select class="form-control border-input rounded-0" name="what[]">
                         <option>---</option>
                         <option style="font-size: 14px;" <?php if($value['what']=="Other")
@@ -272,7 +272,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
         <div class="row">
             <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
                 <div class="form-group p-0">
-                    <label for="" class="cargo-label m-0">Count Cargo items</label>
+                    <label for="" class="cargo-label m-0"><?php echo $lang['courier11'] ?></label>
                     <input type="number" name="cargo_item[]" value="1" 
                     class="form-control rounded-0 border-input cargo_item" 
                     placeholder="" aria-describedby="helpId" value="<?php echo @$value['cargo_item'];?>">
@@ -280,7 +280,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
                 </div>
             </div>
             <div class="col-xs-12 col-md-6 col-lg-6 col-xl-4">
-                <label class="m-0 cargo-label">Length (in cm)</label>
+                <label class="m-0 cargo-label"><?php echo $lang['courier12'] ?></label>
                 <div class="form-group p-0">
                     <input type="number" name="cargo_length[]"  
                     class="form-control rounded-0 border-input cargo_length" 
@@ -290,7 +290,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
             </div>
             <div class="col-xs-12 col-md-6 col-lg-6 col-xl-4">
                 <div class="form-group p-0">
-                    <label for="" class="cargo-label m-0">Width (in cm)</label>
+                    <label for="" class="cargo-label m-0"><?php echo $lang['courier13'] ?></label>
                     <input type="number" name="cargo_width[]"  
                     class="form-control rounded-0 border-input cargo_width" 
                     placeholder="" aria-describedby="helpId" value="<?php echo @$value['cargo_weight'];?>">
@@ -299,7 +299,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
             </div>
             <div class="col-xs-12 col-md-6 col-lg-6 col-xl-4">
                 <div class="form-group p-0">
-                    <label for="" class="cargo-label m-0">Height (in cm)</label>
+                    <label for="" class="cargo-label m-0"><?php echo $lang['courier14'] ?></label>
                     <input type="number" name="cargo_height[]"  
                     class="form-control rounded-0 border-input cargo_height" 
                     placeholder="" aria-describedby="helpId" value="<?php echo @$value['cargo_height'];?>">
@@ -312,7 +312,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
         <div class="row">
             <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
                 <div class="form-group p-0">
-                    <label for="" class="cargo-label m-0">Total weight (in kg)</label>
+                    <label for="" class="cargo-label m-0"><?php echo $lang['courier15'] ?></label>
                     <input type="number" name="cargo_weight[]"  
                     class="form-control rounded-0 border-input cargo_weight" 
                     placeholder="" aria-describedby="helpId" value="<?php echo @$value['cargo_weight'];?>">
@@ -321,7 +321,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
             </div>
             <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
                 <div class="form-group p-0">
-                    <label for="" class="cargo-label m-0">Total value (CHF)</label>
+                    <label for="" class="cargo-label m-0"><?php echo $lang['courier16'] ?></label>
                     <input type="number" name="cargo_value[]"  
                     class="form-control rounded-0 border-input" 
                     placeholder="" aria-describedby="helpId" value="<?php echo @$value['cargo_value'];?>">
@@ -334,7 +334,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
         <div class="row">
             <div class="col-sm-12 col-xs-12 col-xl-12">
                 <div class="form-group p-0">
-                    <label for="" class="cargo-label m-0">Freight title</label>
+                    <label for="" class="cargo-label m-0"><?php echo $lang['courier17'] ?></label>
                     <input type="search" name="cargo_title[]"  
                     class="form-control rounded-0 border-input" 
                     placeholder="" aria-describedby="helpId" value="<?php echo @$value['cargo_title'];?>">
@@ -347,7 +347,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
         <div class="row">
             <div class="col-sm-12 col-xs-12 col-xl-12">
                 <div class="form-group">
-                    <label  class="cargo-label">Freight description </label>
+                    <label  class="cargo-label"><?php echo $lang['courier18'] ?></label>
                     <textarea class="form-control rounded-0 border-input" name="cargo_description[]" rows="3"><?php echo @$value['cargo_description'];?></textarea>
                 </div>
             </div>
@@ -357,7 +357,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
         <div class="row pt-2" style="border-bottom: solid 1px #00A2AE;">
             <div class="col-sm-12 col-xs-12 col-xl-6">
                 <div class="form-group">
-                    <label for="" class="cargo-label">Are the goods stackable?</label><br>
+                    <label for="" class="cargo-label"><?php echo $lang['courier19'] ?></label><br>
                     <input type="radio" checked="" name="cargo_goodsstacke[]" value="yes" <?php if($value['cargo_goodsstacke']=="yes")
                     {
                        echo "checked";
@@ -373,7 +373,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
 
            <div class="col-sm-12 col-xs-12 col-xl-6">
             <div class="form-group">
-                <label for="" class="cargo-label">Are the goods packaged?</label><br>
+                <label for="" class="cargo-label"><?php echo $lang['courier20'] ?></label><br>
                 <div class="form-group">
                     <input type="radio" checked="" name="cargo_goodpackage[0]" value="yes">
                     <label>&nbsp;Yes</label>
@@ -390,12 +390,12 @@ else
 {
     ?>
     <div class="row mt-5">
-        <div class="col-12 cargo-item-head">CARGO ITEM: 1</div>
+        <div class="col-12 cargo-item-head"><?php echo $lang['courier9'] ?> 1</div>
     </div>
     <!-- 1st cargo row -->
     <div class="row">
         <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
-            <label class="m-0 cargo-label">What</label>
+            <label class="m-0 cargo-label"><?php echo $lang['courier10'] ?></label>
             <select class="form-control border-input rounded-0" name="what[]">
                 <option>---</option>
                 <option style="font-size: 14px;">Other</option>
@@ -409,7 +409,7 @@ else
     <div class="row">
         <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
             <div class="form-group p-0">
-                <label for="" class="cargo-label m-0">Count Cargo items</label>
+                <label for="" class="cargo-label m-0"><?php echo $lang['courier11'] ?></label>
                 <input type="number" name="cargo_item[]" value="1" 
                 class="form-control rounded-0 border-input cargo_item" 
                 placeholder="" aria-describedby="helpId">
@@ -417,7 +417,7 @@ else
             </div>
         </div>
         <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
-            <label class="m-0 cargo-label">Length (in cm)</label>
+            <label class="m-0 cargo-label"><?php echo $lang['courier12'] ?></label>
             <div class="form-group p-0">
                 <input type="number" name="cargo_length[]"  
                 class="form-control rounded-0 border-input cargo_length" 
@@ -427,7 +427,7 @@ else
         </div>
         <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
             <div class="form-group p-0">
-                <label for="" class="cargo-label m-0">Width (in cm)</label>
+                <label for="" class="cargo-label m-0"><?php echo $lang['courier13'] ?></label>
                 <input type="number" name="cargo_width[]"  
                 class="form-control rounded-0 border-input cargo_width" 
                 placeholder="" aria-describedby="helpId">
@@ -436,7 +436,7 @@ else
         </div>
         <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
             <div class="form-group p-0">
-                <label for="" class="cargo-label m-0">Height (in cm)</label>
+                <label for="" class="cargo-label m-0"><?php echo $lang['courier14'] ?></label>
                 <input type="number" name="cargo_height[]"  
                 class="form-control rounded-0 border-input cargo_height" 
                 placeholder="" aria-describedby="helpId">
@@ -449,7 +449,7 @@ else
     <div class="row">
         <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
             <div class="form-group p-0">
-                <label for="" class="cargo-label m-0">Total weight (in kg)</label>
+                <label for="" class="cargo-label m-0"><?php echo $lang['courier15'] ?></label>
                 <input type="number" name="cargo_weight[]"  
                 class="form-control rounded-0 border-input cargo_weight" 
                 placeholder="" aria-describedby="helpId">
@@ -458,7 +458,7 @@ else
         </div>
         <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
             <div class="form-group p-0">
-                <label for="" class="cargo-label m-0">Total value (CHF)</label>
+                <label for="" class="cargo-label m-0"><?php echo $lang['courier16'] ?></label>
                 <input type="number" name="cargo_value[]"  
                 class="form-control rounded-0 border-input" 
                 placeholder="" aria-describedby="helpId">
@@ -471,7 +471,7 @@ else
     <div class="row">
         <div class="col-sm-12 col-xs-12 col-xl-12">
             <div class="form-group p-0">
-                <label for="" class="cargo-label m-0">Freight title</label>
+                <label for="" class="cargo-label m-0"><?php echo $lang['courier17'] ?></label>
                 <input type="search" name="cargo_title[]"  
                 class="form-control rounded-0 border-input" 
                 placeholder="" aria-describedby="helpId">
@@ -484,7 +484,7 @@ else
     <div class="row">
         <div class="col-sm-12 col-xs-12 col-xl-12">
             <div class="form-group">
-                <label  class="cargo-label">Freight description </label>
+                <label  class="cargo-label"><?php echo $lang['courier18'] ?></label>
                 <textarea class="form-control rounded-0 border-input" name="cargo_description[]" rows="3"></textarea>
             </div>
         </div>
@@ -494,7 +494,7 @@ else
     <div class="row pt-2" style="border-bottom: solid 1px #00A2AE;">
         <div class="col-sm-12 col-xs-12 col-xl-6">
             <div class="form-group">
-                <label for="" class="cargo-label">Are the goods stackable?</label><br>
+                <label for="" class="cargo-label"><?php echo $lang['courier19'] ?></label><br>
                 <input type="radio" checked="" name="cargo_goodsstacke[0]" value="yes">
                 <label>&nbsp;Yes</label>
                 <input class="ml-3" type="radio" checked="" name="cargo_goodsstacke[0]" value="no">
@@ -504,7 +504,7 @@ else
 
         <div class="col-sm-12 col-xs-12 col-xl-6">
             <div class="form-group">
-                <label for="" class="cargo-label">Are the goods packaged?</label><br>
+                <label for="" class="cargo-label"><?php echo $lang['courier20'] ?></label><br>
                 <div class="form-group">
                     <input type="radio" checked="" name="cargo_goodpackage[0]" value="yes">
                     <label>&nbsp;Yes</label>
@@ -525,7 +525,7 @@ else
 <!-- 7th row cargo buttons -->
 <div class="row mt-3 mb-4">
     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-4">
-        <button type="button" class="btn btn-cargo w-100" id="AddCargoButton">Add cargo item</button>
+        <button type="button" class="btn btn-cargo w-100" id="AddCargoButton"><?php echo $lang['courier21'] ?></button>
     </div>
     <!-- <div class="col-xs-12 col-sm-12 col-xl-6 bg-warning"> -->
 
@@ -544,7 +544,7 @@ else
     <div class="container summary-back p-4" style="font-size: 15px;">
         <div class="row">
             <div class="col-xs-12 col-xl-12">
-                <p class="color s-title">SUMMARY</p>
+                <p class="color s-title"><?php echo $lang['courier22'] ?></p>
             </div>
         </div>
 
@@ -582,15 +582,15 @@ else
                 <img src="../assets/shippment/images/s3.png">
             </div>
             <div class="">
-                <span>Cargo Items: <span class="cargo_item_show">1</span><br>
-                <span class="cargo_length_show">length</span>: cm <span class="cargo_width_show">width</span>: cm <span class="cargo_height_show">height</span>: cm<br>
-                <span class="cargo_weight_show">weight</span>: kg</span>
+                <span><?php echo $lang['courier23'] ?><span class="cargo_item_show">1</span><br>
+                <span class="cargo_length_show"><?php echo $lang['courier24'] ?></span>: cm <span class="cargo_width_show"><?php echo $lang['courier25'] ?></span>: cm <span class="cargo_height_show"><?php echo $lang['courier26'] ?></span>: cm<br>
+                <span class="cargo_weight_show"><?php echo $lang['courier27'] ?></span>: kg</span>
             </div>
         </div>
 
         <div class="row mt-4">
             <div class="col-xs-12 col-xl-12" >
-                <p class="color s-title">COSTS</p>
+                <p class="color s-title"><?php echo $lang['courier28'] ?></p>
             </div>
         </div>
 
@@ -600,13 +600,13 @@ else
                 <input type="hidden" name="cargo_without_vat" id="cargo_without_vat" value="<?php echo $result['cargo_without_vat'];?>">
                 <input type="hidden" name="cargo_distance" id="cargo_distance" value="<?php echo $result['cargo_distance'];?>" >
                 <input type="hidden" name="cargo_time" id="cargo_time" value="<?php echo $result['cargo_time'];?>">
-                <p class="" style="border-bottom: dashed .5px #00A2AE;">+ 0.35 CHF Fuel surcharge: 1%</p>
+                <p class="" style="border-bottom: dashed .5px #00A2AE;"><?php echo $lang['courier29'] ?></p>
                 <h1 style="border-bottom: solid .5px #00A2AE;"><span id="cargo_without_vat_show"><?php echo $result['cargo_without_vat'];?></span></h1>
-                <p class="text-right">without VAT</p>
+                <p class="text-right"><?php echo $lang['courier30'] ?></p>
                 <h3><span id="cargo_vat_show"><?php echo $result['cargo_vat'];?></span></h3>
                 <div style="width: 100%; height: 1px; background-color: #00A2AE;"></div>
                 <div style="width: 100%; height: 1px; background-color: #00A2AE; margin-top: 1px;"></div>
-                <p class="text-right mt-1">with VAT</p>
+                <p class="text-right mt-1"><?php echo $lang['courier31'] ?></p>
             </div>
         </div>
     </div>
@@ -684,12 +684,12 @@ else
             var cargoadd = "";
 
 
-            cargoadd += '<div id="cargoAdd"><div class="row mt-5"><div class="col-12 cargo-item-head">CARGO ITEM: '+counter+'</div></div>';  
+            cargoadd += '<div id="cargoAdd"><div class="row mt-5"><div class="col-12 cargo-item-head"><?php echo $lang['courier9'] ?> '+counter+'</div></div>';  
             cargoadd += '<div class="text-right"><button type="button" class="btn btn-cargo pl-2 mw-25 white-button" id="removeCargo" style="font-size: 16px;">Remove cargo item</button></div>';
     // what col
     cargoadd += '<div class="row">';
     cargoadd += '<div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">';
-    cargoadd += '<label class="m-0 cargo-label">What</label>';
+    cargoadd += '<label class="m-0 cargo-label"><?php echo $lang['courier10'] ?></label>';
     cargoadd += '<select class="form-control border-input rounded-0" name = "what[]">';
     cargoadd += ' <option>---</option>';
     cargoadd += '<option style="font-size: 14px;">Other</option>';
@@ -705,14 +705,14 @@ else
       // Caount cargo item col
       cargoadd += '<div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">';
       cargoadd += '<div class="form-group p-0">';
-      cargoadd += '<label for="" class="cargo-label m-0">(Count Car)go items</label>';
+      cargoadd += '<label for="" class="cargo-label m-0"><?php echo $lang['courier11'] ?></label>';
       cargoadd += '<input type="number" name="cargo_item[]" value="1"  class="form-control rounded-0 border-input cargo_item" placeholder="" aria-describedby="helpId">';
     // cargoadd += '<!-- <small id="helpId" class="text-muted">Help text</small> -->';
     cargoadd += '</div></div>';
 
 
     cargoadd += '<div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">';
-    cargoadd += ' <label class="m-0 cargo-label">Length (in cm)</label>';
+    cargoadd += ' <label class="m-0 cargo-label"><?php echo $lang['courier12'] ?></label>';
     cargoadd += '<div class="form-group p-0">';
     cargoadd += '<input type="number" name="cargo_length[]"  class="form-control rounded-0 border-input cargo_length" placeholder="" aria-describedby="helpId">';
     // cargoadd += '<!-- <small id="helpId" class="text-muted">Help text</small> -->';
@@ -721,7 +721,7 @@ else
     // width in cm col
     cargoadd += '<div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">';
     cargoadd += '<div class="form-group p-0">';
-    cargoadd += '<label for="" class="cargo-label m-0">Width (in cm)</label>';
+    cargoadd += '<label for="" class="cargo-label m-0"><?php echo $lang['courier13'] ?></label>';
     cargoadd += ' <input type="number" name="cargo_width[]"  class="form-control rounded-0 border-input cargo_width" placeholder="" aria-describedby="helpId">';
     // cargoadd += '<!-- <small id="helpId" class="text-muted">Help text</small> -->';
     cargoadd += '</div></div>';
@@ -729,7 +729,7 @@ else
     // Height in cm col
     cargoadd += '<div class="col-xs-12 col-md-6 col-lg-6 col-xl-4">';
     cargoadd += '<div class="form-group p-0">';
-    cargoadd += '<label for="" class="cargo-label m-0">Height (in cm)</label>';
+    cargoadd += '<label for="" class="cargo-label m-0"><?php echo $lang['courier14'] ?></label>';
     cargoadd += ' <input type="number" name="cargo_height[]"  class="form-control rounded-0 border-input cargo_height" placeholder="" aria-describedby="helpId">';
     // cargoadd += '<!-- <small id="helpId" class="text-muted">Help text</small> -->';
     cargoadd += '</div></div></div>';
@@ -738,7 +738,7 @@ else
     cargoadd += '<div class="row">';
     cargoadd += '<div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">';
     cargoadd += ' <div class="form-group p-0">';
-    cargoadd += ' <label for="" class="cargo-label m-0">Total weight (in kg)</label>';
+    cargoadd += ' <label for="" class="cargo-label m-0"><?php echo $lang['courier15'] ?></label>';
     cargoadd += '<input type="number" name="cargo_weight[]"  class="form-control rounded-0 border-input cargo_weight" placeholder="" aria-describedby="helpId">';
     // cargoadd += '<!-- <small id="helpId" class="text-muted">Help text</small> -->';
     cargoadd += '</div></div>';
@@ -747,7 +747,7 @@ else
 
     cargoadd += '<div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">';
     cargoadd += ' <div class="form-group p-0">';
-    cargoadd += ' <label for="" class="cargo-label m-0">Total value (CHF)</label>';
+    cargoadd += ' <label for="" class="cargo-label m-0"><?php echo $lang['courier16'] ?></label>';
     cargoadd += '<input type="number" name="cargo_value[]"  class="form-control rounded-0 border-input" placeholder="" aria-describedby="helpId">';
     // cargoadd += '<!-- <small id="helpId" class="text-muted">Help text</small> -->';
     cargoadd += '</div></div></div>';
@@ -756,7 +756,7 @@ else
     cargoadd += '<div class="row">';
     cargoadd += '<div class="col-sm-12 col-xs-12 col-xl-12">';
     cargoadd += '<div class="form-group p-0">';
-    cargoadd += '<label for="" class="cargo-label m-0">Freight title</label>';
+    cargoadd += '<label for="" class="cargo-label m-0"><?php echo $lang['courier17'] ?></label>';
     cargoadd += '<input type="search" name="cargo_title[]"  class="form-control rounded-0 border-input" placeholder="" aria-describedby="helpId">';
     // cargoadd += '<!-- <small id="helpId" class="text-muted">Help text</small> -->';
     cargoadd += '</div></div></div>';
@@ -765,7 +765,7 @@ else
     cargoadd += '<div class="row">';
     cargoadd += '<div class="col-sm-12 col-xs-12 col-xl-12">';
     cargoadd += '<div class="form-group p-0">';
-    cargoadd += '<label  class="cargo-label">Freight description </label>';
+    cargoadd += '<label  class="cargo-label"><?php echo $lang['courier18'] ?></label>';
     cargoadd += '<textarea class="form-control rounded-0 border-input" name="cargo_description[]" rows="3"></textarea>';
     cargoadd += '</div></div></div>';
 
@@ -773,7 +773,7 @@ else
     cargoadd += '<row class="row pt-2" style="border-bottom: solid 1px #00A2AE;">';
     cargoadd += '<div class="col-sm-12 col-xs-12 col-xl-6">';
     cargoadd += '<div class="form-group">';
-    cargoadd += '<label for="" class="cargo-label">Are the goods stackable?</label><br>';
+    cargoadd += '<label for="" class="cargo-label"><?php echo $lang['courier19'] ?></label><br>';
     cargoadd += '<input type="radio" checked="" name="cargo_goodsstacke['+(counter-1)+']" value="yes">';
     cargoadd += '<label>&nbsp;Yes</label>';
     cargoadd += '<input class="ml-3" type="radio" checked="" name="cargo_goodsstacke['+(counter-1)+']" value="no">';
@@ -783,7 +783,7 @@ else
     // 
     cargoadd += '<div class="col-sm-12 col-xs-12 col-xl-6">';
     cargoadd += '<div class="form-group">';
-    cargoadd += '<label for="" class="cargo-label">Are the goods packaged?</label><br>';
+    cargoadd += '<label for="" class="cargo-label"><?php echo $lang['courier20'] ?></label><br>';
     cargoadd += '<input type="radio" checked="" name="cargo_goodpackage['+(counter-1)+']" value="yes">';
     cargoadd += '<label>&nbsp;Yes</label>';
     cargoadd += '<input class="ml-3" type="radio" checked="" name="cargo_goodpackage['+(counter-1)+']" value="no">';

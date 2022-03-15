@@ -131,7 +131,7 @@
                         <i class="fa fa-check color-green" aria-hidden="true" style="font-size: 27px;"></i></p>
                 </div>
                 <div>
-                    <p class="after-digit-title color-green">Information about the goods</p>
+                    <p class="after-digit-title color-green"><?php echo $lang['courier1'] ?></p>
                 </div>
                 </div>
            </div>
@@ -145,7 +145,7 @@
                  </p>
              </div>
              <div>
-                 <p class="after-digit-title color">Date</p>
+                 <p class="after-digit-title color"><?php echo $lang['courier2'] ?></p>
              </div>
         </div>
         </div>
@@ -157,7 +157,7 @@
                  <p class="pt-2 digit">3.</p>
              </div>
              <div>
-                 <p class="after-digit-title">Address</p>
+                 <p class="after-digit-title"><?php echo $lang['courier3'] ?></p>
              </div>
         </div>
         </div>
@@ -169,7 +169,7 @@
                     <p class="pt-2 digit">4.</p>
                 </div>
                 <div>
-                    <p class="after-digit-title">Delivery options</p>
+                    <p class="after-digit-title"><?php echo $lang['courier4'] ?></p>
                 </div>
              </div>
         </div>
@@ -181,7 +181,7 @@
         <div class="row mt-5">
             <!-- services dates -->
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                <div class="color font-28">SERVICES AND DATES</div>
+                <div class="color font-28"><?php echo $lang['courier32'] ?></div>
             </div>
             <!-- div budgets -->
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 mb-3">
@@ -189,11 +189,11 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-3">
                         <div class="card text-center rounded-0 summary-back">
                             <div class="card-body" id="divBudget">
-                              <h5 class="card-title font-24">BUDGET</h5>
+                              <h5 class="card-title font-24"><?php echo $lang['courier33'] ?></h5>
                               <img src="../assets/shippment/images/service.png" class="budget" id="serviceshow">
                               <img src="../assets/shippment/images/service-check.png" class="Myhide" id="servicehide">
-                              <p>Within 72h<br><a href="#">more info</a></p>
-                              <button class="btn btn-cargo btn-budget" id="budgetBtn">Budget</button>
+                              <p><?php echo $lang['courier34'] ?><br><a href="#"><?php echo $lang['courier35'] ?></a></p>
+                              <button class="btn btn-cargo btn-budget" id="budgetBtn"><?php echo $lang['courier33'] ?></button>
                             </div>
                           </div>
                     </div>
@@ -201,11 +201,11 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-3">
                         <div class="card text-center rounded-0 summary-back">
                             <div class="card-body" id="divStandard">
-                              <h5 class="card-title font-24">STANDARD</h5>
+                              <h5 class="card-title font-24"><?php echo $lang['courier36'] ?></h5>
                               <img src="../assets/shippment/images/service2.png" class="standard" id="service2show">
                               <img src="../assets/shippment/images/service2-check.png" class="Myhide" id="service2hide">
-                              <p>Within 24h<br><a href="#">more info</a></p>
-                              <button class="btn btn-cargo btn-budget" id="standardBtn">Standard</button>
+                              <p><?php echo $lang['courier37'] ?><br><a href="#"><?php echo $lang['courier35'] ?></a></p>
+                              <button class="btn btn-cargo btn-budget" id="standardBtn"><?php echo $lang['courier36'] ?></button>
                             </div>
                           </div>
                     </div>
@@ -213,11 +213,11 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-3">
                         <div class="card text-center rounded-0 summary-back">
                             <div class="card-body" id="divExpress">
-                              <h5 class="card-title font-24">EXPRESS</h5>
+                              <h5 class="card-title font-24"><?php echo $lang['courier38'] ?></h5>
                               <img src="../assets/shippment/images/service3.png" class="express" id="service3show">
                               <img src="../assets/shippment/images/service3-check.png" class="Myhide" id="service3hide">
-                              <p>Within 12h<br><a href="#">more info</a></p>
-                              <button class="btn btn-cargo btn-budget" id="expressBtn">Express</button>
+                              <p><?php echo $lang['courier39'] ?><br><a href="#"><?php echo $lang['courier35'] ?></a></p>
+                              <button class="btn btn-cargo btn-budget" id="expressBtn"><?php echo $lang['courier38'] ?></button>
                             </div>
                           </div>
                     </div>
@@ -229,19 +229,19 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                                <h2 class="font-21 color">Delivery date</h2>
+                                <h2 class="font-21 color"><?php echo $lang['courier40'] ?></h2>
                                 <div class="row">
                                     <div class="col-12">
                                             <input type="hidden" name="service_type" id="service_type" value="<?php echo @$result['service_type'];?>">
                                         <div class="form-group p-0">
-                                            <label for="" class="cargo-label m-0">Pickup date</label>
+                                            <label for="" class="cargo-label m-0"><?php echo $lang['courier41'] ?></label>
                                                 <input type="date" name="pickup_date"  
                                                 class="form-control rounded-0 border-input" 
                                                 placeholder="" aria-describedby="helpId" required="" value="<?php echo @$result['pickup_date'];?>">
                                                 <!-- <small id="helpId" class="text-muted">Help text</small> -->
                                         </div>
                                         <div class="form-group p-0">
-                                            <label for="" class="cargo-label m-0">Pickup time from</label>
+                                            <label for="" class="cargo-label m-0"><?php echo $lang['courier42'] ?></label>
                                             <select class="form-control border-input rounded-0" name="pickup_hour">
                                                  <option value="">---</option>
                                                  <option <?php if(@$result['pickup_hour']=="05:00")
@@ -472,7 +472,7 @@
                                             </select>
                                         </div>
                                         <div class="form-group p-0">
-                                            <label for="" class="cargo-label m-0">Pickup time until</label>
+                                            <label for="" class="cargo-label m-0"><?php echo $lang['courier43'] ?></label>
                                             <select name="pickup_until" class="form-control border-input rounded-0">
                                                  <option value="">---</option>
                                                  <option <?php if(@$result['pickup_until']=="05:00")
@@ -703,7 +703,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="" class="cargo-label">
-                                                Pickup at noon possible
+                                            <?php echo $lang['courier44'] ?>
                                                 &nbsp;
                                                 <i class="fa fa-info-circle" aria-hidden="true"></i>
                                             </label><br>
@@ -717,19 +717,19 @@
                             </div>
 <!-- ------------------------------------------------------------------------------------------------------- -->
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                                <h2 class="font-21 color">DELIVERY DATE</h2>
+                                <h2 class="font-21 color"><?php echo $lang['courier45'] ?></h2>
                                 <div class="row">
                                     <div class="col-12">
                                         
                                         <div class="form-group p-0">
-                                            <label for="" class="cargo-label m-0">Delivery date</label>
+                                            <label for="" class="cargo-label m-0"><?php echo $lang['courier46'] ?></label>
                                                 <input type="date" name="deliver_date"  
                                                 class="form-control rounded-0 border-input" 
                                                 placeholder="" aria-describedby="helpId" required value="<?php echo @$result['deliver_date'];?>">
                                                 <!-- <small id="helpId" class="text-muted">Help text</small> -->
                                         </div>
                                         <div class="form-group p-0">
-                                            <label for="" class="cargo-label m-0">Delivery time from</label>
+                                            <label for="" class="cargo-label m-0"><?php echo $lang['courier47'] ?></label>
                                             <select class="form-control border-input rounded-0" name="delivery_hour">
                                                 <option value="">---</option>
                                                  <option <?php if(@$result['delivery_hour']=="05:00")
@@ -959,7 +959,7 @@
                                             </select>
                                         </div>
                                         <div class="form-group p-0">
-                                            <label for="" class="cargo-label m-0">Delivery time until</label>
+                                            <label for="" class="cargo-label m-0"><?php echo $lang['courier48'] ?></label>
                                             <select name="delivery_until" class="form-control border-input rounded-0">
                                                 <option value="">---</option>
                                                 <option <?php if(@$result['delivery_until']=="05:00")
@@ -1190,7 +1190,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="" class="cargo-label">
-                                               Delivery at noon possible?
+                                            <?php echo $lang['courier49'] ?>
                                                &nbsp;
                                                <i class="fa fa-info-circle" aria-hidden="true"></i>
                                             </label><br>
@@ -1217,7 +1217,7 @@
                     <div class="col-12">
                         <div class="form-group">
                             <label for="" class="cargo-label">
-                                Flexible execution between pick-up and delivery date &nbsp;
+                            <?php echo $lang['courier50'] ?> &nbsp;
                                 <i class="fa fa-info-circle" aria-hidden="true"></i>
                             </label><br>
                             <input type="radio" <?php if($value['cargo_flexible']=="yes")
@@ -1238,12 +1238,12 @@
                     <div class="col-6">
                         <a href="cargo_shipping.php"><input type="button" class="btn btn-cargo py-2 px-5" id="ButtonNext"
                                 style="background-color:#f7f4f3; font-size: 18px; color: #899099;"
-                                value="Back"></input></a>
+                                value="<?php echo $lang['courier51'] ?>"></input></a>
                     </div>
 
                     <div class="col-6 text-right">
                         <input type="submit" name="step-4" class="btn btn-cargo py-2 px-5" id="ButtonNext"
-                            style="background-color: #E5005B; font-size: 18px;" value="Next"></input>
+                            style="background-color: #E5005B; font-size: 18px;" value="<?php echo $lang['courier52'] ?>"></input>
                     </div>
                 </div>
             </form>
@@ -1262,7 +1262,7 @@
                 <div class="container summary-back p-4" style="font-size: 15px;">
                     <div class="row">
                         <div class="col-xs-12 col-xl-12">
-                            <p class="color s-title">SUMMARY</p>
+                            <p class="color s-title"><?php echo $lang['courier22'] ?></p>
                         </div>
                     </div>
 
@@ -1301,26 +1301,26 @@
                         </div>
                         <div class="">
                             <span>Cargo Items: <span class="cargo_item_show">1</span><br>
-                                <span class="cargo_length_show">length</span>: cm <span class="cargo_width_show">width</span>: cm <span class="cargo_height_show">height</span>: cm<br>
-                                <span class="cargo_weight_show">weight</span>: kg</span>
+                                <span class="cargo_length_show"><?php echo $lang['courier23'] ?></span>: cm <span class="cargo_width_show"><?php echo $lang['courier24'] ?></span>: cm <span class="cargo_height_show"><?php echo $lang['courier26'] ?></span>: cm<br>
+                                <span class="cargo_weight_show"><?php echo $lang['courier27'] ?></span>: kg</span>
                         </div>
                     </div>
 
                     <div class="row mt-4">
                         <div class="col-xs-12 col-xl-12" >
-                            <p class="color s-title">COSTS</p>
+                            <p class="color s-title"><?php echo $lang['courier28'] ?></p>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-xs-12 col-xl-12">
-                            <p class="" style="border-bottom: dashed .5px #00A2AE;">+ 0.35 CHF Fuel surcharge: 1%</p>
+                            <p class="" style="border-bottom: dashed .5px #00A2AE;"><?php echo $lang['courier29'] ?></p>
                             <h1 style="border-bottom: solid .5px #00A2AE;"><span id="cargo_without_vat_show"></span></h1>
-                            <p class="text-right">without VAT</p>
+                            <p class="text-right"><?php echo $lang['courier30'] ?></p>
                             <h3><span id="cargo_vat_show"></span></h3>
                             <div style="width: 100%; height: 1px; background-color: #00A2AE;"></div>
                             <div style="width: 100%; height: 1px; background-color: #00A2AE; margin-top: 1px;"></div>
-                            <p class="text-right mt-1">with VAT</p>
+                            <p class="text-right mt-1"><?php echo $lang['courier31'] ?></p>
                         </div>
                     </div>
                 </div>

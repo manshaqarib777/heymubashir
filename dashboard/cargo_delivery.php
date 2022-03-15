@@ -128,7 +128,7 @@
                             <i class="fa fa-check" aria-hidden="true" style="font-size: 27px;"></i></p>
                     </div>
                     <div>
-                        <p class="after-digit-title color-green">Information about the goods</p>
+                        <p class="after-digit-title color-green"><?php echo $lang['courier1'] ?></p>
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                         </p>
                     </div>
                     <div>
-                        <p class="after-digit-title color-green">Date</p>
+                        <p class="after-digit-title color-green"><?php echo $lang['courier2'] ?></p>
                     </div>
                 </div>
             </div>
@@ -157,7 +157,7 @@
                         </p>
                     </div>
                     <div>
-                        <p class="after-digit-title color-green">Address</p>
+                        <p class="after-digit-title color-green"><?php echo $lang['courier3'] ?></p>
                     </div>
                 </div>
             </div>
@@ -171,7 +171,7 @@
                         </p>
                     </div>
                     <div>
-                        <p class="after-digit-title color">Delivery options</p>
+                        <p class="after-digit-title color"><?php echo $lang['courier4'] ?></p>
                     </div>
                 </div>
             </div>

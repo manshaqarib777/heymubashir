@@ -134,7 +134,7 @@
                                 <i class="fa fa-check" aria-hidden="true" style="font-size: 27px;"></i></p>
                         </div>
                         <div>
-                            <p class="after-digit-title color-green">Information about the goods</p>
+                            <p class="after-digit-title color-green"><?php echo $lang['courier1'] ?></p>
                         </div>
                     </div>
                 </div>
@@ -148,7 +148,7 @@
                             </p>
                         </div>
                         <div>
-                            <p class="after-digit-title color-green">Date</p>
+                            <p class="after-digit-title color-green"><?php echo $lang['courier2'] ?></p>
                         </div>
                     </div>
                 </div>
@@ -163,7 +163,7 @@
 
                         </div>
                         <div>
-                            <p class="after-digit-title color">Address</p>
+                            <p class="after-digit-title color"><?php echo $lang['courier3'] ?></p>
                         </div>
                     </div>
                 </div>
@@ -176,7 +176,7 @@
                             <p class="pt-2 digit">4.</p>
                         </div>
                         <div>
-                            <p class="after-digit-title">Delivery options</p>
+                            <p class="after-digit-title"><?php echo $lang['courier4'] ?></p>
                         </div>
                     </div>
                 </div>
@@ -188,7 +188,7 @@
                 <!-- ADDRESSES Box 1 -->
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
                     
-                        <h1 class="color-green font-28">ADDRESSS</h1>
+                        <h1 class="color-green font-28"><?php echo $lang['courier53'] ?></h1>
 
                         <!-- First Row -->
                         <!-- First Column -->
@@ -196,7 +196,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
                                 <div class="row">
                                     <div class="col-6">
-                                        <h1 class="color font-21">PICKUP ADDRESS</h1>
+                                        <h1 class="color font-21"><?php echo $lang['courier54'] ?></h1>
                                     </div>
                                     <div class="col-6">
                                         <!-- Button trigger modal -->
@@ -204,14 +204,14 @@
                                             data-target="#address-book-pickup"
                                             style="background-color: #e5005b; clip-path: polygon(0% 0%, 90% 0, 100% 35%, 100% 100%, 0 100%);">
                                             <i class="fa fa-address-book font-16" aria-hidden="true"></i>
-                                            Address book </button>
+                                            <?php echo $lang['courier55'] ?> </button>
                                     </div>
                                 </div>
 
                                 <!-- Second Row -->
                                 <div class="row mt-3 ">
                                     <div class="col-12">
-                                        <label for="" class="cargo-label m-0 font-16 color">Company</label>
+                                        <label for="" class="cargo-label m-0 font-16 color"><?php echo $lang['courier56'] ?></label>
                                         <input type="text" name="company" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['company'];?>" id="company">
@@ -222,16 +222,14 @@
                                 <!-- Third Row -->
                                 <div class="row mt-3">
                                     <div class="col-6">
-                                        <label for="" class="cargo-label m-0 font-16 color">First
-                                            Name</label>
+                                        <label for="" class="cargo-label m-0 font-16 color"><?php echo $lang['courier57'] ?></label>
                                         <input type="text" required name="s_name" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['s_name'];?>" id="s_name">
                                     </div>
 
                                     <div class="col-6">
-                                        <label for="" class="cargo-label m-0 font-16 color">Last
-                                            name</label>
+                                        <label for="" class="cargo-label m-0 font-16 color"><?php echo $lang['courier58'] ?></label>
                                         <input type="text" name="lastname" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['lastname'];?>" id="lastname">
@@ -242,7 +240,7 @@
                                 <!-- Fourth Row -->
                                 <div class="row mt-3">
                                     <div class="col-12">
-                                        <label for="" class="cargo-label m-0 font-16 color">Street + house number</label>
+                                        <label for="" class="cargo-label m-0 font-16 color"><?php echo $lang['courier59'] ?></label>
                                         <input type="text" name="street" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['street'];?>" id="street">
@@ -250,14 +248,14 @@
                                 </div>
                                 <div class="row mt-3">
                                     <div class="col-6">
-                                        <label for="" class="cargo-label m-0 font-16 color">City</label>
+                                        <label for="" class="cargo-label m-0 font-16 color"><?php echo $lang['courier60'] ?></label>
                                         <input type="text" required name="city" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['city'];?>" id="city">
                                     </div>
 
                                     <div class="col-6">
-                                        <label for="" class="cargo-label m-0 font-16 color">Country</label>
+                                        <label for="" class="cargo-label m-0 font-16 color"><?php echo $lang['courier61'] ?></label>
                                         <input type="text" name="country" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['country'];?>" id="country">
@@ -269,7 +267,7 @@
                                 <div class="row mt-3">
                                     <div class="col-12">
                                         <label for="" class="cargo-label m-0 font-16 color">
-                                            Additional address line <span class="font-optional">(Optional)</span></label>
+                                        <?php echo $lang['courier62'] ?> <span class="font-optional"><?php echo $lang['courier63'] ?></span></label>
                                         <input type="text" name="address" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['address'];?>" id="address">
@@ -281,7 +279,7 @@
                                 <div class="row mt-3">
                                     <div class="col-12">
                                         <label for="" class="cargo-label m-0 font-16 color">
-                                            Pickup location</label>
+                                        <?php echo $lang['courier64'] ?></label>
                                         <input type="text" name="addresspickup" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['addresspickup'];?>" id="addresspickup">
@@ -293,7 +291,7 @@
                                 <div class="row mt-3">
                                     <div class="col-12">
                                         <label for="" class="cargo-label m-0 font-16 color">
-                                            Phone number contact person <i class="fa fa-info-circle" data-toggle="tooltip"
+                                        <?php echo $lang['courier65'] ?> <i class="fa fa-info-circle" data-toggle="tooltip"
                                                 data-placement="top" title="We need your phone number, so the driver can contact you if necessary " aria-hidden="true"></i></label>
                                         <input type="number" name="phone" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
@@ -306,7 +304,7 @@
                                 <div class="row mt-3">
                                     <div class="col-12">
                                         <label for="" class="cargo-label m-0 font-16 color">
-                                            E-mail address contact person <span class="font-optional">(Optional)</span> <i
+                                        <?php echo $lang['courier66'] ?> <span class="font-optional"><?php echo $lang['courier66'] ?></span> <i
                                                 class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" title="E-mail address for notificationslike tracking link, pickup driver information and proof of delivery" aria-hidden="true"></i></label>
                                         <input type="email" name="email" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"

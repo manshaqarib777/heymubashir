@@ -29,8 +29,8 @@
 	*/
 
 	  define('DB_SERVER', 'localhost'); 
-	  define('DB_USER', 'corofwed_transport_test'); 
-	  define('DB_PASS', 'transport_test'); 
+	  define('DB_USER', 'root'); 
+	  define('DB_PASS', 'DEveloper/9090'); 
 	  define('DB_DATABASE', 'corofwed_transport_test');
 	
 // 	define('DB_SERVER', 'localhost'); 

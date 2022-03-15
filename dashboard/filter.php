@@ -78,15 +78,13 @@
 		break;
 
 		case "backup":
-		default:
 			echo '<i class="icon-hdd"></i> '.$lang['filter8'].'';
 		break;
 
 		case "maintenance":
 
-		default:
 			echo '<i class="icon-cog"></i> '.$lang['filter9'].'';
-			break;
+		break;
 		  
 		case "gateways":
 
@@ -1059,12 +1057,7 @@
 
 		case "newsletter":
 
-		default:
-				echo '<i class="icon-envelope"></i> '.$lang['filter77'].'';
-			break;
-
-		default:
-			echo '<i class="icon-microphone"></i> '.$lang['filter78'].'';
+			echo '<i class="icon-envelope"></i> '.$lang['filter77'].'';
 		break;
   }
 ?>

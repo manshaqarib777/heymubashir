@@ -1,0 +1,1095 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Address</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- font awesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- steps -->
+<div class="container">
+    <div class="row justify-content-center text-center prog-steps">
+        <!-- 1 step -->
+        <div class="col-md-2 col-lg-2 col-sm-2 p-0">
+            <div>
+                <img src="images/1-done.png" class="img-fluid">
+                <div>
+                    <p class="pt-2 digit color-green">1.
+                        <i class="fa fa-check" aria-hidden="true" style="font-size: 27px;"></i></p>
+                </div>
+                <div>
+                    <p class="after-digit-title color-green">Information about the goods</p>
+                </div>
+            </div>
+        </div>
+        <!-- 2 step -->
+        <div class="col-md-2 col-lg-2 col-sm-2 p-0 ">
+            <div>
+                <img src="images/2-donee.png" class="img-fluid">
+                <div>
+                    <p class="pt-2 digit color-green">2.
+                        <i class="fa fa-check color-green" aria-hidden="true" style="font-size: 27px;"></i>
+                    </p>
+                </div>
+                <div>
+                    <p class="after-digit-title color-green">Date</p>
+                </div>
+            </div>
+        </div>
+        <!-- 3 step -->
+        <div class="col-md-2 col-lg-2 col-sm-2 p-0">
+            <div>
+                <img src="images/3-prog.png" class="img-fluid">
+                <div>
+                    <p class="pt-2 digit color">3.
+                        <i class="fa fa-pencil color" aria-hidden="true" style="font-size: 27px;"></i>
+                    </p>
+
+                </div>
+                <div>
+                    <p class="after-digit-title color">Address</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- step 4 -->
+        <div class="col-md-2 col-lg-2 col-sm-2 p-0">
+            <div>
+                <img src="images/4.png" class="img-fluid">
+                <div>
+                    <p class="pt-2 digit">4.</p>
+                </div>
+                <div>
+                    <p class="after-digit-title">Delivery options</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /end steps  row -->
+
+    <div class="row mt-5">
+        <!-- ADDRESSES Box 1 -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+            <form action="delivery.html" method="POST">
+                <h1 class="color-green font-28">ADDRESSS</h1>
+
+                <!-- First Row -->
+                <!-- First Column -->
+                <div class="row mt-3">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4">
+                        <div class="row">
+                            <div class="col-6">
+                                <h1 class="color font-21">PICKUP ADDRESS</h1>
+                            </div>
+                            <div class="col-6">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-cargo rounded-0 font-14" data-toggle="modal"
+                                    data-target=".bd-example-modal-lg" id="#address-book"
+                                    style="background-color: #e5005b; clip-path: polygon(0% 0%, 90% 0, 100% 35%, 100% 100%, 0 100%);">
+                                    <i class="fa fa-address-book font-16" aria-hidden="true"></i>
+                                    Address book </button>
+                            </div>
+                        </div>
+
+                        <!-- Second Row -->
+                        <div class="row mt-3 ">
+                            <div class="col-12">
+                                <label for="" class="cargo-label m-0 font-16 color">Company</label>
+                                <input type="text" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+                        <!-- Third Row -->
+                        <div class="row mt-3">
+                            <div class="col-6">
+                                <label for="" class="cargo-label m-0 font-16 color">First
+                                    Name</label>
+                                <input type="text" required name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+
+                            <div class="col-6">
+                                <label for="" class="cargo-label m-0 font-16 color">Last
+                                    name</label>
+                                <input type="text" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+                        <!-- Fourth Row -->
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <label for="" class="cargo-label m-0 font-16 color">Street + house number</label>
+                                <input type="text" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+                        <!-- Fifth Row -->
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <label for="" class="cargo-label m-0 font-16 color">
+                                    Additional address line <span class="font-optional">(Optional)</span></label>
+                                <input type="text" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+                        <!-- Sixth Row -->
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <label for="" class="cargo-label m-0 font-16 color">
+                                    Pickup location</label>
+                                <input type="text" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+                        <!-- Seventh Row -->
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <label for="" class="cargo-label m-0 font-16 color">
+                                    Phone number contact person <i class="fa fa-info-circle" data-toggle="tooltip"
+                                        data-placement="top" title="We need your phone number, so the
+ driver can contact you if necessary " aria-hidden="true"></i></label>
+                                <input type="text" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+                        <!-- Eight Row -->
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <label for="" class="cargo-label m-0 font-16 color">
+                                    E-mail address contact person <span class="font-optional">(Optional)</span> <i
+                                        class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" title="E-mail address for notifications
+like tracking link, pickup driver
+information and proof of
+delivery" aria-hidden="true"></i></label>
+                                <input type="email" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                                <span style="font-size: 14px; color: rgba(28, 44,63,0.5);">
+                                    Please enter the e-mail address of the contact person in the company, who will
+                                    be notified for free by e-mail of the pickup.
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+                        <!-- 9th Row -->
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <label for="" class="cargo-label m-0 font-16 color">
+                                    Enter details of the pickup location <span class="font-optional">(Optional)</span>
+                                    <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" title="Please enter special
+features for the pickup
+address.(e.g. office on the
+first floor)" aria-hidden="true"></i></label>
+                                <input type="text" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+                        <!-- 10th Row -->
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <label for="" class="cargo-label m-0 font-16 color">
+                                    Reference number shipper <span class="font-optional">(Optional)</span> <i
+                                        class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" title="The refrence number is printed
+onto the delivery slip and the
+invoice." aria-hidden="true"></i></label>
+                                <input type="text" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <!-- End / -->
+                    </div>
+
+                    <!-- Second Column -->
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="row">
+                            <div class="col-6">
+                                <h1 class="color font-21">DELIVERY ADDRESS</h1>
+                            </div>
+                            <div class="col-6">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-cargo rounded-0 font-14" data-toggle="modal"
+                                    data-target=".bd-example-modal-lg" id="#address-book"
+                                    style="background-color: #e5005b; clip-path: polygon(0% 0%, 90% 0, 100% 35%, 100% 100%, 0 100%);">
+                                    <i class="fa fa-address-book font-16" aria-hidden="true"></i>
+                                    Address book </button>
+                            </div>
+                        </div>
+
+                        <!-- Second Row -->
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <label for="" class="cargo-label m-0 font-16 color">Company</label>
+                                <input type="text" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+                        <!-- Third Row -->
+                        <div class="row mt-3">
+                            <div class="col-6">
+                                <label for="" class="cargo-label m-0 font-16 color">First
+                                    Name</label>
+                                <input type="text" required name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+
+                            <div class="col-6">
+                                <label for="" class="cargo-label m-0 font-16 color">Last
+                                    name</label>
+                                <input type="text" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+                        <!-- Fourth Row -->
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <label for="" class="cargo-label m-0 font-16 color">Street + house number</label>
+                                <input type="text" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+                        <!-- Fifth Row -->
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <label for="" class="cargo-label m-0 font-16 color">
+                                    Additional address line <span class="font-optional">(Optional)</span></label>
+                                <input type="text" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+                        <!-- Sixth Row -->
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <label for="" class="cargo-label m-0 font-16 color">
+                                    Pickup location</label>
+                                <input type="text" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+                        <!-- Seventh Row -->
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <label for="" class="cargo-label m-0 font-16 color">
+                                    Phone number contact person <i class="fa fa-info-circle" data-toggle="tooltip"
+                                        data-placement="top" title="We need your phone number of the
+reciever, so the driver can contact the
+reciever if necessary " aria-hidden="true"></i></label>
+                                <input type="text" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+                        <!-- Eight Row -->
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <label for="" class="cargo-label m-0 font-16 color">
+                                    E-mail address contact person <span class="font-optional">(Optional)</span> <i
+                                        class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" title="E-mail address for notifications
+like tracking link, pickup driver
+information and proof of
+delivery" aria-hidden="true"></i></label>
+                                <input type="email" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                                <span style="font-size: 14px; color: rgba(28, 44,63,0.5);">
+                                    Please enter the e-mail address of the receiver’s contact person, who will be
+                                    notified for free by e-mail of delivery.
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+                        <!-- 9th Row -->
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <label for="" class="cargo-label m-0 font-16 color">
+                                    Enter details of the pickup location <span class="font-optional">(Optional)</span>
+                                    <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" title="Please enter special
+features for the pickup
+address.(e.g. office on the
+first floor)" aria-hidden="true"></i></label>
+                                <input type="text" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+                        <!-- 10th Row -->
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <label for="" class="cargo-label m-0 font-16 color">
+                                    Reference number shipper <span class="font-optional">(Optional)</span> <i
+                                        class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" title="The refrence number is printed
+onto the delivery slip and the
+invoice." aria-hidden="true"></i></label>
+                                <input type="text" name="deliveryLocation" id="deliveryLocation"
+                                    class="form-control rounded-0 border-input bg-transparent login-border"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+                        <!-- End / -->
+
+
+                    </div>
+                    <!-- End / -->
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-12 font-21 color">
+                        FURTHER INFORMATION ON PICK-UP / DELIVERY ADDRESS (OPTIONAL)
+                    </div>
+                </div>
+                <div class="col-12 font-16 p-0">
+                    If necessary, provide us with additional information such as restricted access or additional
+                    pick-up
+                    and delivery addresses for the transport order.
+                </div>
+
+                <!-- Additional Information -->
+                <div class="row">
+                    <div class="col-12 text-right">
+                        <input type="button" id="hide" class="btn btn-cargo mt-1 w-65 px-4" id="ButtonNext"
+                            style=" font-size: 17px; display: none; clip-path: polygon(0% 0%, 94% 0, 100% 36%, 100% 100%, 0 100%);"
+                            value="Hide additional Information"></input>
+
+                        <input type="button" id="show" class="btn btn-cargo mt-1 w-65 px-4" id="ButtonNext"
+                            style=" font-size: 17px; clip-path: polygon(0% 0%, 94% 0, 100% 36%, 100% 100%, 0 100%);"
+                            value="Show additional Information"></input>
+                    </div>
+
+                </div>
+
+                <!-- Additional informaton box which is display none and display on click additional information -->
+                <div id="additional-box" style="display: none;">
+                    <div class="row mt-4">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  py-2">
+                            <h1 class="font-21">Access restriction for pickup</h1>
+                            <span class="font-16" style="color: #cccccc;">(Optional)</span>
+                            <br>
+                            <div class="text-right py-2" style="border-bottom: solid 1px #00A2AE;">
+                                <input type="button" id="#add1" data-toggle="modal" data-target=".add1-modal"
+                                    class="btn btn-cargo mt-3 py-1 px-3" style=" font-size: 14px;" value="Add"></input>
+                            </div>
+                            <div class="row " id="add1inside">
+                                <div class="col-12">
+                                    <div style="background-color: #e8f6f8; line-height: 5px;" class="p-0">
+                                        <h1 class="font-21 pl-3 pt-4">ACCESS RESTRICTIONS</h1>
+                                        <h1 class="font-16 pl-3">Are there any access restrictions (weight)?</h1>
+                                        <p class="font-16 pl-3"><b>No restrictions</b></p>
+                                        <h1 class="font-16 pl-3">Are there any access restrictions (height)?</h1>
+                                        <p class="font-16 pl-3"><b>No restrictions</b></p>
+                                        <div class="text-right py-2" style="border-bottom: solid 1px #00A2AE;">
+                                            <input type="button" id="#add1" data-toggle="modal"
+                                                data-target=".add1-modal" class="btn btn-cargo mr-4 py-1 px-3"
+                                                style=" font-size: 14px; background-color: #00A2AE;;"
+                                                value="Edit"></input>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  py-2">
+                            <h1 class="font-21">Access restriction for delivery</h1>
+                            <span class="font-16" style="color: #cccccc;">(Optional)</span>
+                            <div class="text-right py-2" style="border-bottom: solid 1px #00A2AE;">
+                                <input type="button" id="#add2" data-toggle="modal" data-target=".add2-modal"
+                                    class="btn btn-cargo mt-3 py-1 px-3" id="ButtonNext" style=" font-size: 14px;"
+                                    value="Add"></input></a>
+                            </div>
+                            <div class="row" id="add2inside">
+                                <div class="col-12">
+                                    <div style="background-color: #e8f6f8; line-height: 5px;" class="p-0">
+                                        <h1 class="font-21 pl-3 pt-4">ACCESS RESTRICTIONS</h1>
+                                        <h1 class="font-16 pl-3">Are there any access restrictions (weight)?</h1>
+                                        <p class="font-16 pl-3"><b>No restrictions</b></p>
+                                        <h1 class="font-16 pl-3">Are there any access restrictions (height)?</h1>
+                                        <p class="font-16 pl-3"><b>No restrictions</b></p>
+                                        <div class="text-right py-2" style="border-bottom: solid 1px #00A2AE;">
+                                            <input type="button" id="#add2" data-toggle="modal"
+                                                data-target=".add2-modal" class="btn btn-cargo mr-4 py-1 px-3"
+                                                style=" font-size: 14px; background-color: #00A2AE;;"
+                                                value="Edit"></input>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- End / -->
+
+                    <!-- Second Row & Column -->
+                    <div class="row mt-4 py-5" style="border-bottom: 1px solid #00A2AE;">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 py-2">
+                            <h1 class="font-21">Add additional pickup location <span class="font-16"
+                                    style="color: #cccccc;">(Optional)</span></h1>
+                            <h1 style="color:black;font-size: 14px;">Further loading point in the reverse of 10km of the
+                                first
+                                loading
+                                address</h1>
+                            <br>
+                            <div class="text-right py-2" style="border-bottom: solid 1px #00A2AE;">
+                                <input type="button" id="#add3" data-toggle="modal" data-target=".add3-modal"
+                                    class="btn btn-cargo py-1 px-3 " id="ButtonNext" style=" font-size: 14px;"
+                                    value="Add"></input>
+                            </div>
+
+                            <div class="row" id="add3inside">
+                                <div class="col-12">
+                                    <div style="background-color: #e8f6f8;">
+                                        <div class="p-3">
+                                            Company<br>
+                                            First Name: <br>
+                                            Last Name: <br>
+                                            Street: <span></span> <br>
+                                            Zip / Postal: <span></span> <br>
+                                            Telephone: <span></span>
+                                        </div>
+                                        <div class="text-right py-2" style="border-bottom: solid 1px #00A2AE;">
+                                            <a href="#" class="mr-2" id="remove3">Remove</a>
+                                            <input type="button" id="#add3" data-toggle="modal"
+                                                data-target=".add3-modal" class="btn btn-cargo mr-4 py-1 px-3"
+                                                style=" font-size: 14px; background-color: #00A2AE;;"
+                                                value="Edit"></input>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  py-2">
+                            <h1 class="font-21">Add additional delivery location</h1>
+                            <span class="font-16" style="color: #cccccc;">(Optional)</span>
+                            <h1 style="color:black;font-size: 14px;">Further loading point in the reverse of 10km of the
+                                first
+                                loading
+                                address</h1>
+                            <br>
+                            <div class="text-right py-2" style="border-bottom: solid 1px #00A2AE;">
+                                <input type="button" id="#add4" data-toggle="modal"
+                                        data-target=".add4-modal" class="btn btn-cargo py-1 px-3" id="ButtonNext"
+                                        style=" font-size: 14px;" value="Add"></input>
+                            </div>
+
+                            <div class="row" id="add4inside">
+                                <div class="col-12">
+                                    <div style="background-color: #e8f6f8;">
+                                        <div class="p-3">
+                                            Company<br>
+                                            First Name: <br>
+                                            Last Name: <br>
+                                            Street: <span></span> <br>
+                                            Zip / Postal: <span></span> <br>
+                                            Telephone: <span></span>
+                                        </div>
+                                        <div class="text-right py-2" style="border-bottom: solid 1px #00A2AE;">
+                                            <a href="#" class="mr-2" id="remove4">Remove</a>
+                                            <input type="button" id="#add4" data-toggle="modal"
+                                                data-target=".add4-modal" class="btn btn-cargo mr-4 py-1 px-3"
+                                                style=" font-size: 14px; background-color: #00A2AE;;"
+                                                value="Edit"></input>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <!-- End / -->
+
+                </div>
+
+
+                <!-- Back & Next Buttons -->
+                <div class="row mt-5 mb-4">
+
+                    <div class="col-6">
+                        <a href="date.html"><input type="button" class="btn btn-cargo py-2 px-5" id="ButtonNext"
+                                style="background-color:#f7f4f3; font-size: 18px; color: #899099; clip-path: polygon(0 34%, 14% 0, 100% 0, 100% 100%, 0% 100%);"
+                                value="Back"></input></a>
+                    </div>
+
+                    <div class="col-6 text-right">
+                        <input type="submit" class="btn btn-cargo py-2 px-5" id="ButtonNext"
+                            style="background-color: #E5005B; font-size: 18px;" value="Next"></input>
+                    </div>
+                </div>
+                <!-- End / -->
+
+
+        </div> <!-- 8 x 8 Col / -->
+
+
+
+
+        <!-- 3rd main col Summary -->
+        <div class=" col-xs-12 col-md-12 col-lg-4 col-md-4">
+            <div class="container-fluid summary-back p-4" style="font-size: 15px;">
+                <div class="row">
+                    <div class="col-xs-12 col-xl-12">
+                        <p class="color s-title">SUMMARY</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-xl-12">
+                        <i class="fa fa-map-marker color-green icon-location" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+                <div class="row mt-2">
+                    <div class="col-xs-12 col-xl-12">
+                        <i class="fa fa-map-marker color icon-location" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-8">
+                     <img src="images/s1.png"><span style="color: 1c2c3f;">Km</span>
+                    </div>
+                    <div class="">
+                        <i class="fa fa-clock-o" style="font-size: 23px;" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+                <div class="row mt-2">
+                    <div class="col-xs-6 col-xl-6">
+                        <img src="images/s2.png"><span style="color: 1c2c3f;">0Kg</span>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-3">
+                        <img src="images/s3.png">
+                    </div>
+                    <div class="">
+                        <span>x<br>
+                            L: cm W: cm H: cm<br>
+                            W: kg</span>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-xs-12 col-xl-12">
+                        <p class="color s-title">COSTS</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-xl-12">
+                        <p class="" style="border-bottom: dashed .5px #00A2AE;">+ 0.60 CHF Fuel surcharge:
+                            1%</p>
+                        <h1 style="border-bottom: solid .5px #00A2AE;">59.60 CHF</h1>
+                        <p class="text-right">without VAT</p>
+                        <h3>64.20 CHF</h3>
+                        <div style="width: 100%; height: 1px; background-color: #00A2AE;"></div>
+                        <div style="width: 100%; height: 1px; background-color: #00A2AE; margin-top: 1px;">
+                        </div>
+                        <p class="text-right mt-1">with VAT</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Third row of summary main row -->
+            <div class="row mt-4">
+                <div class="col-xs-12 col-xl-12">
+                    <div class="p-3 bussines-customer-div">
+                        <b>Business customers</b> Business customers profit from our Basic-, Flex- or
+                        Licence
+                        models.
+                        With these models we cover your needs to 100%. You will find more information <a
+                            href="#">here</a>.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        </form> <!-- Form /-->
+
+    </div> <!-- 4 x 4 Main Col / -->
+
+</div>
+
+
+
+
+
+
+<!-- Modal -->
+
+<!-- Address Book Modal -->
+
+<div class="modal fade bd-example-modal-lg" id="#address-book" tabindex="-1" role="dialog"
+    aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">SEARCH ADDRESS
+                </h5>
+            </div>
+
+            <form action="delivery-option.html" method="POST">
+                <div class="modal-body">
+                    <!-- First Row -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+                            <label class="font-16 color">Name / Address / Location / Email</label>
+                            <input type="text" class="form-control rounded-0 border-input bg-transparent login-border"
+                                placeholder="" aria-describedby="helpId">
+                        </div>
+                        <div class="col-2">
+                            <input type="button" class="btn btn-cargo py-2 px-4 mt-4" id="ButtonNext"
+                                style="background-color: #E5005B; font-size: 18px;" value="Search"></input>
+                        </div>
+                    </div>
+                    <!-- End / -->
+
+                    <!-- Second Row -->
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <p class="font-16"><b>No addresses at the moment.</b></p>
+                            <p class="font-16">Do you have an existing customer base? You can
+                                import your customer base
+                                under <a href="#">into your
+                                    Pickwings address book.</a></p>
+                        </div>
+                    </div>
+                    <!-- End / -->
+                </div>
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-cargo py-2 px-4" data-dismiss="modal" id="ButtonNext"
+                        style="background-color:#f7f4f3; font-size: 18px; color: #899099; clip-path: polygon(0% 0%, 90% 0, 100% 42%, 100% 99%, 0% 100%);"
+                        value="Close"></input>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+</div>
+
+<!-- Address Book Modal End / -->
+
+<!-- Add1 Model -->
+
+<div class="modal fade add1-modal" id="#add1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">ACCESS RESTRICTION FOR PICKUP
+                </h5>
+            </div>
+
+            <form action="" method="POST">
+                <div class="modal-body">
+                    <!-- First Row -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <h1 class="font-21">ACCESS RESTRICTIONS</h1>
+                            <label class="font-16 color">Is there an access restriction at the pickup location?</label>
+                            <select class="form-control border-input rounded-0"
+                                style="clip-path: polygon(0% 0%, 97% 0, 100% 52%, 100% 100%, 0 100%);">
+                                <option style="font-size: 14px;">No restrictions</option>
+                                <option style="font-size: 14px;">Small vehicles only (up to 3.5t)</option>
+                                <option style="font-size: 14px;">Only trucks with no trailer (up to 18t)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- End / -->
+
+                    <!-- Second Row -->
+                    <div class="row mt-4">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <label class="font-16 color">Is there a limitation in height at the pickup location?
+                                <span class="font-optional">(Optional)</span></label>
+                            <input type="text" class="form-control rounded-0 border-input bg-transparent" placeholder=""
+                                aria-describedby="helpId">
+                            <div class="font-optional">Indication in meters</div>
+                        </div>
+                    </div>
+                    <!-- End / -->
+                </div>
+                <div class="modal-footer">
+                    <input type="button" class="btn py-2 px-4 white-button" data-dismiss="modal" id="ButtonNext"
+                        value="Close"></input>
+                    <input type="button" class="btn py-2 px-4 btn-cargo" data-dismiss="modal" id="add1save" value="Save"></input>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Add1 Model / -->
+
+
+
+<!-- Add2 Model -->
+
+<div class="modal fade add2-modal" id="#add2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">ACCESS RESTRICTION FOR DELIVERY
+                </h5>
+            </div>
+            <form method="POST">
+                <div class="modal-body">
+                    <!-- First Row -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <h1 class="font-21">ACCESS RESTRICTIONS</h1>
+                            <label class="font-16 color">Is there an access restriction at the delivery
+                                location?</label>
+                            <select class="form-control border-input rounded-0"
+                                style="clip-path: polygon(0% 0%, 97% 0, 100% 52%, 100% 100%, 0 100%);">
+                                <option style="font-size: 14px;">No restrictions</option>
+                                <option style="font-size: 14px;">Small vehicles only (up to 3.5t)</option>
+                                <option style="font-size: 14px;">Only trucks with no trailer (up to 18t)
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- End / -->
+
+                    <!-- Second Row -->
+                    <div class="row mt-4">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <label class="font-16 color">Is there a limitation in height at the delivery
+                                location?
+                                <span class="font-optional">(Optional)</span></label>
+                            <input type="text" class="form-control rounded-0 border-input bg-transparent" placeholder=""
+                                aria-describedby="helpId">
+                            <div class="font-optional">Indication in meters</div>
+                        </div>
+                    </div>
+                    <!-- End / -->
+                </div>
+                <div class="modal-footer">
+                    <input type="button" class="btn py-2 px-4 white-button" data-dismiss="modal" id="ButtonNext"
+                        value="Close"></input>
+                    <input type="button" class="btn py-2 px-4 btn-cargo" id="add2save" data-dismiss="modal" value="Save"></input>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Add2 Model / -->
+
+
+<!-- Add3 Modal -->
+
+<div class="modal fade add3-modal" id="#add3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">ADD ADDITIONAL PICKUP LOCATION
+                </h5>
+            </div>
+
+            <form action="delivery-option.html" method="POST">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <h1 class="font-21">ADDITIONAL LOADING POINT</h1>
+                            <div class="form-group">
+                                <label class="font-16 color">Company</label>
+                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="form-group">
+                                <label class="font-16 color">First Name</label>
+                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="form-group">
+                                <label class="font-16 color">Last Name</label>
+                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="form-group">
+                                <label class="font-16 color">Address</label>
+                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="form-group">
+                                <label class="font-16 color">Zip / Location</label>
+                                <input type="search" name="pickLocation" id="pickLocation"
+                                    class="form-control rounded-0 zip-input border-gray" placeholder=""
+                                    aria-describedby="helpId" required>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="form-group">
+                                <label class="font-16 color">Telephone</label>
+                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="form-group">
+                                <label class="font-16 color">Enter details of the delivery location</label>
+                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <input type="button" class="btn py-2 px-4 white-button" data-dismiss="modal" id="ButtonNext"
+                        value="Close"></input>
+                    <input type="button" class="btn py-2 px-4 btn-cargo" id="add3save" data-dismiss="modal" value="Save"></input>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+</div>
+
+<!-- Add3 Modal End / -->
+
+
+<!-- Add4 Modal -->
+
+<div class="modal fade add4-modal" id="#add4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">ADD ADDITIONAL PICKUP LOCATION
+                </h5>
+            </div>
+
+            <form action="delivery-option.html" method="POST">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <h1 class="font-21">ADDITIONAL UNLOADING POINT</h1>
+                            <div class="form-group">
+                                <label class="font-16 color">Company</label>
+                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="form-group">
+                                <label class="font-16 color">First Name</label>
+                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="form-group">
+                                <label class="font-16 color">Last Name</label>
+                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="form-group">
+                                <label class="font-16 color">Address</label>
+                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="form-group">
+                                <label class="font-16 color">Zip / Location</label>
+                                <input type="search" name="pickLocation" id="pickLocation"
+                                    class="form-control rounded-0 zip-input border-gray" placeholder=""
+                                    aria-describedby="helpId" required>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="form-group">
+                                <label class="font-16 color">Telephone</label>
+                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="form-group">
+                                <label class="font-16 color">Enter details of the delivery location</label>
+                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
+                                    placeholder="" aria-describedby="helpId">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <input type="button" class="btn py-2 px-4 white-button" data-dismiss="modal" id="ButtonNext"
+                        value="Close"></input>
+                    <input type="button" class="btn py-2 px-4 btn-cargo" id="add4save" data-dismiss="modal" value="Save"></input>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+</div>
+
+<!-- Add4 Modal End / -->
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+
+
+<!-- Custom JQuery Script -->
+
+
+<script>
+    $(document).ready(function () {
+        $("#show").click(function () {
+            $(this).hide();
+            $("#hide").show();
+            $("#additional-box").show();
+
+        });
+        $("#hide").click(function () {
+            $(this).hide();
+            $("#show").show();
+            $("#additional-box").hide();
+
+        });
+    });
+    
+    
+// 
+$(document).ready(function(){
+        $("#add1inside").hide();
+        $("#add2inside").hide();
+        $("#add3inside").hide();
+        $("#add4inside").hide();
+
+        $("#add1save").click(function (){
+            $("#add1inside").show();
+        });
+
+        $("#add2save").click(function (){
+            $("#add2inside").show();
+        });
+        $("#add3save").click(function (){
+            $("#add3inside").show();
+        });
+        $("#add4save").click(function (){
+            $("#add4inside").show();
+        });
+
+        $("#remove3").click(function (){
+            $("#add3inside").hide();
+        });
+        $("#remove4").click(function (){
+            $("#add4inside").hide();
+        });
+});
+
+
+
+</script>
+
+<!-- End / -->
+
+
+</body>
+
+</html>

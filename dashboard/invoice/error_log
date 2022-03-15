@@ -1,0 +1,2 @@
+[05-Apr-2021 16:08:01 America/New_York] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/corofwed/public_html/heymubashir.com/dashboard/invoice/inv_ship.php on line 337
+[05-Apr-2021 16:08:53 America/New_York] PHP Parse error:  syntax error, unexpected '";' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/corofwed/public_html/heymubashir.com/dashboard/invoice/inv_ship.php on line 338

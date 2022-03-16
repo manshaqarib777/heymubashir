@@ -310,8 +310,7 @@
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['email'];?>" id="email">
                                         <span style="font-size: 14px; color: rgba(28, 44,63,0.5);">
-                                            Please enter the e-mail address of the contact person in the company, who will
-                                            be notified for free by e-mail of the pickup.
+                                            <?php echo $lang['courier67'] ?>                                            
                                         </span>
                                     </div>
                                 </div>
@@ -321,7 +320,7 @@
                                 <div class="row mt-3">
                                     <div class="col-12">
                                         <label for="" class="cargo-label m-0 font-16 color">
-                                            Enter details of the pickup location <span class="font-optional">(Optional)</span>
+                                        <?php echo $lang['courier68'] ?> <span class="font-optional"><?php echo $lang['courier63'] ?></span>
                                             <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" title="Please enter special features for the pickup address.(e.g. office on the first floor)" aria-hidden="true"></i></label>
                                         <input type="text" name="pickupdetails" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
@@ -334,7 +333,7 @@
                                 <div class="row mt-3">
                                     <div class="col-12">
                                         <label for="" class="cargo-label m-0 font-16 color">
-                                            Reference number shipper <span class="font-optional">(Optional)</span> <i
+                                        <?php echo $lang['courier69'] ?> <span class="font-optional"><?php echo $lang['courier63'] ?></span> <i
                                                 class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" title="The refrence number is printed onto the delivery slip and the invoice." aria-hidden="true"></i></label>
                                         <input type="text" name="refrence_no" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
@@ -348,7 +347,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                                 <div class="row">
                                     <div class="col-6">
-                                        <h1 class="color font-21">DELIVERY ADDRESS</h1>
+                                        <h1 class="color font-21"><?php echo $lang['courier70'] ?></h1>
                                     </div>
                                     <div class="col-6">
                                         <!-- Button trigger modal -->
@@ -356,14 +355,14 @@
                                             data-target="#address-book-deliver"
                                             style="background-color: #e5005b; clip-path: polygon(0% 0%, 90% 0, 100% 35%, 100% 100%, 0 100%);">
                                             <i class="fa fa-address-book font-16" aria-hidden="true"></i>
-                                            Address book </button>
+                                            <?php echo $lang['courier71'] ?> </button>
                                     </div>
                                 </div>
 
                                 <!-- Second Row -->
                                 <div class="row mt-3">
                                     <div class="col-12">
-                                        <label for="" class="cargo-label m-0 font-16 color">Company</label>
+                                        <label for="" class="cargo-label m-0 font-16 color"><?php echo $lang['courier56'] ?></label>
                                         <input type="text" name="r_company" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['r_company'];?>" id="r_company">
@@ -374,16 +373,14 @@
                                 <!-- Third Row -->
                                 <div class="row mt-3">
                                     <div class="col-6">
-                                        <label for="" class="cargo-label m-0 font-16 color">First
-                                            Name</label>
+                                        <label for="" class="cargo-label m-0 font-16 color"><?php echo $lang['courier57'] ?></label>
                                         <input type="text" required name="r_name" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['r_name'];?>" id="r_name">
                                     </div>
 
                                     <div class="col-6">
-                                        <label for="" class="cargo-label m-0 font-16 color">Last
-                                            name</label>
+                                        <label for="" class="cargo-label m-0 font-16 color"><?php echo $lang['courier58'] ?></label>
                                         <input type="text" name="r_lastname" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['r_lastname'];?>" id="r_lastname">
@@ -394,7 +391,7 @@
                                 <!-- Fourth Row -->
                                 <div class="row mt-3">
                                     <div class="col-12">
-                                        <label for="" class="cargo-label m-0 font-16 color">Street + house number</label>
+                                        <label for="" class="cargo-label m-0 font-16 color"><?php echo $lang['courier59'] ?></label>
                                         <input type="text" name="r_street" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['r_street'];?>" id="r_street">
@@ -403,14 +400,14 @@
 
                                                                 <div class="row mt-3">
                                     <div class="col-6">
-                                        <label for="" class="cargo-label m-0 font-16 color">City</label>
+                                        <label for="" class="cargo-label m-0 font-16 color"><?php echo $lang['courier60'] ?></label>
                                         <input type="text" required name="r_city" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['r_city'];?>" id="r_city">
                                     </div>
 
                                     <div class="col-6">
-                                        <label for="" class="cargo-label m-0 font-16 color">Country</label>
+                                        <label for="" class="cargo-label m-0 font-16 color"><?php echo $lang['courier61'] ?></label>
                                         <input type="text" name="r_country" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['r_country'];?>" id="r_country">
@@ -422,7 +419,7 @@
                                 <div class="row mt-3">
                                     <div class="col-12">
                                         <label for="" class="cargo-label m-0 font-16 color">
-                                            Additional address line <span class="font-optional">(Optional)</span></label>
+                                        <?php echo $lang['courier62'] ?> <span class="font-optional"><?php echo $lang['courier63'] ?></span></label>
                                         <input type="text" name="r_address" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['r_address'];?>" id="r_address">
@@ -434,7 +431,7 @@
                                 <div class="row mt-3">
                                     <div class="col-12">
                                         <label for="" class="cargo-label m-0 font-16 color">
-                                            Pickup location</label>
+                                        <?php echo $lang['courier64'] ?></label>
                                         <input type="text" name="r_addresspickup" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['r_addresspickup'];?>" id="r_addresspickup">
@@ -446,7 +443,7 @@
                                 <div class="row mt-3">
                                     <div class="col-12">
                                         <label for="" class="cargo-label m-0 font-16 color">
-                                            Phone number contact person <i class="fa fa-info-circle" data-toggle="tooltip"
+                                        <?php echo $lang['courier65'] ?> <i class="fa fa-info-circle" data-toggle="tooltip"
                                                 data-placement="top" title="We need your phone number of the reciever, so the driver can contact the reciever if necessary " aria-hidden="true"></i></label>
                                         <input type="number" name="r_phone" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
@@ -459,14 +456,13 @@
                                 <div class="row mt-3">
                                     <div class="col-12">
                                         <label for="" class="cargo-label m-0 font-16 color">
-                                            E-mail address contact person <span class="font-optional">(Optional)</span> <i
+                                        <?php echo $lang['courier66'] ?> <span class="font-optional"><?php echo $lang['courier63'] ?></span> <i
                                                 class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" title="E-mail address for notifications like tracking link, pickup driver information and proof of delivery" aria-hidden="true"></i></label>
                                         <input type="email" name="r_email" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
                                             placeholder="" aria-describedby="helpId" value="<?php echo @$result['r_email'];?>" id="r_email">
                                         <span style="font-size: 14px; color: rgba(28, 44,63,0.5);">
-                                            Please enter the e-mail address of the receiver’s contact person, who will be
-                                            notified for free by e-mail of delivery.
+                                        <?php echo $lang['courier72'] ?>
                                         </span>
                                     </div>
                                 </div>
@@ -476,7 +472,7 @@
                                 <div class="row mt-3">
                                     <div class="col-12">
                                         <label for="" class="cargo-label m-0 font-16 color">
-                                            Enter details of the pickup location <span class="font-optional">(Optional)</span>
+                                        <?php echo $lang['courier68'] ?> <span class="font-optional"><?php echo $lang['courier63'] ?></span>
                                             <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" title="Please enter special features for the pickup address.(e.g. office on the first floor)" aria-hidden="true"></i></label>
                                         <input type="text" name="r_pickupdetails" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
@@ -489,7 +485,7 @@
                                 <div class="row mt-3">
                                     <div class="col-12">
                                         <label for="" class="cargo-label m-0 font-16 color">
-                                            Reference number shipper <span class="font-optional">(Optional)</span> <i
+                                        <?php echo $lang['courier69'] ?> <span class="font-optional"><?php echo $lang['courier63'] ?></span> <i
                                                 class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" title="The refrence number is printed onto the delivery slip and the invoice." aria-hidden="true"></i></label>
                                         <input type="text" name="r_refrence_no" 
                                             class="form-control rounded-0 border-input bg-transparent login-border"
@@ -503,278 +499,92 @@
                             <!-- End / -->
                         </div>
 
-                        <!--<div class="row mt-3">-->
-                        <!--    <div class="col-12 font-21 color">-->
-                        <!--        FURTHER INFORMATION ON PICK-UP / DELIVERY ADDRESS (OPTIONAL)-->
-                        <!--    </div>-->
-                        <!--</div>-->
-                        <!--<div class="col-12 font-16 p-0">-->
-                        <!--    If necessary, provide us with additional information such as restricted access or additional-->
-                        <!--    pick-up-->
-                        <!--    and delivery addresses for the transport order.-->
-                        <!--</div>-->
-
-                        <!-- Additional Information -->
-                        <!--<div class="row">-->
-                        <!--    <div class="col-12 text-right">-->
-                        <!--        <input type="button" id="hide" class="btn btn-cargo mt-1 w-65 px-4" id="ButtonNext"-->
-                        <!--            style=" font-size: 17px; display: none; clip-path: polygon(0% 0%, 94% 0, 100% 36%, 100% 100%, 0 100%);"-->
-                        <!--            value="Hide additional Information"></input>-->
-
-                        <!--        <input type="button" id="show" class="btn btn-cargo mt-1 w-65 px-4" id="ButtonNext"-->
-                        <!--            style=" font-size: 17px; clip-path: polygon(0% 0%, 94% 0, 100% 36%, 100% 100%, 0 100%);"-->
-                        <!--            value="Show additional Information"></input>-->
-                        <!--    </div>-->
-
-                        <!--</div>-->
-
-                        <!-- Additional informaton box which is display none and display on click additional information -->
-                        <div id="additional-box" style="display: none;">
-                            <div class="row mt-4">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  py-2">
-                                    <h1 class="font-21">Access restriction for pickup</h1>
-                                    <span class="font-16" style="color: #cccccc;">(Optional)</span>
-                                    <br>
-                                    <div class="text-right py-2" style="border-bottom: solid 1px #00A2AE;">
-                                        <input type="button" id="#add1" data-toggle="modal" data-target=".add1-modal"
-                                            class="btn btn-cargo mt-3 py-1 px-3" style=" font-size: 14px;" value="Add"></input>
-                                    </div>
-                                    <div class="row " id="add1inside">
-                                        <div class="col-12">
-                                            <div style="background-color: #e8f6f8; line-height: 5px;" class="p-0">
-                                                <h1 class="font-21 pl-3 pt-4">ACCESS RESTRICTIONS</h1>
-                                                <h1 class="font-16 pl-3">Are there any access restrictions (weight)?</h1>
-                                                <p class="font-16 pl-3"><b>No restrictions</b></p>
-                                                <h1 class="font-16 pl-3">Are there any access restrictions (height)?</h1>
-                                                <p class="font-16 pl-3"><b>No restrictions</b></p>
-                                                <div class="text-right py-2" style="border-bottom: solid 1px #00A2AE;">
-                                                    <input type="button" id="#add1" data-toggle="modal"
-                                                        data-target=".add1-modal" class="btn btn-cargo mr-4 py-1 px-3"
-                                                        style=" font-size: 14px; background-color: #00A2AE;;"
-                                                        value="Edit"></input>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  py-2">
-                                    <h1 class="font-21">Access restriction for delivery</h1>
-                                    <span class="font-16" style="color: #cccccc;">(Optional)</span>
-                                    <div class="text-right py-2" style="border-bottom: solid 1px #00A2AE;">
-                                        <input type="button" id="#add2" data-toggle="modal" data-target=".add2-modal"
-                                            class="btn btn-cargo mt-3 py-1 px-3" id="ButtonNext" style=" font-size: 14px;"
-                                            value="Add"></input></a>
-                                    </div>
-                                    <div class="row" id="add2inside">
-                                        <div class="col-12">
-                                            <div style="background-color: #e8f6f8; line-height: 5px;" class="p-0">
-                                                <h1 class="font-21 pl-3 pt-4">ACCESS RESTRICTIONS</h1>
-                                                <h1 class="font-16 pl-3">Are there any access restrictions (weight)?</h1>
-                                                <p class="font-16 pl-3"><b>No restrictions</b></p>
-                                                <h1 class="font-16 pl-3">Are there any access restrictions (height)?</h1>
-                                                <p class="font-16 pl-3"><b>No restrictions</b></p>
-                                                <div class="text-right py-2" style="border-bottom: solid 1px #00A2AE;">
-                                                    <input type="button" id="#add2" data-toggle="modal"
-                                                        data-target=".add2-modal" class="btn btn-cargo mr-4 py-1 px-3"
-                                                        style=" font-size: 14px; background-color: #00A2AE;;"
-                                                        value="Edit"></input>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                            <!-- End / -->
-
-                            <!-- Second Row & Column -->
-                            <div class="row mt-4 py-5" style="border-bottom: 1px solid #00A2AE;">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 py-2">
-                                    <h1 class="font-21">Add additional pickup location <span class="font-16"
-                                            style="color: #cccccc;">(Optional)</span></h1>
-                                    <h1 style="color:black;font-size: 14px;">Further loading point in the reverse of 10km of the
-                                        first
-                                        loading
-                                        address</h1>
-                                    <br>
-                                    <div class="text-right py-2" style="border-bottom: solid 1px #00A2AE;">
-                                        <input type="button" id="#add3" data-toggle="modal" data-target=".add3-modal"
-                                            class="btn btn-cargo py-1 px-3 " id="ButtonNext" style=" font-size: 14px;"
-                                            value="Add"></input>
-                                    </div>
-
-                                    <div class="row" id="add3inside">
-                                        <div class="col-12">
-                                            <div style="background-color: #e8f6f8;">
-                                                <div class="p-3">
-                                                    Company<br>
-                                                    First Name: <br>
-                                                    Last Name: <br>
-                                                    Street: <span></span> <br>
-                                                    Zip / Postal: <span></span> <br>
-                                                    Telephone: <span></span>
-                                                </div>
-                                                <div class="text-right py-2" style="border-bottom: solid 1px #00A2AE;">
-                                                    <a href="#" class="mr-2" id="remove3">Remove</a>
-                                                    <input type="button" id="#add3" data-toggle="modal"
-                                                        data-target=".add3-modal" class="btn btn-cargo mr-4 py-1 px-3"
-                                                        style=" font-size: 14px; background-color: #00A2AE;;"
-                                                        value="Edit"></input>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  py-2">
-                                    <h1 class="font-21">Add additional delivery location</h1>
-                                    <span class="font-16" style="color: #cccccc;">(Optional)</span>
-                                    <h1 style="color:black;font-size: 14px;">Further loading point in the reverse of 10km of the
-                                        first
-                                        loading
-                                        address</h1>
-                                    <br>
-                                    <div class="text-right py-2" style="border-bottom: solid 1px #00A2AE;">
-                                        <input type="button" id="#add4" data-toggle="modal"
-                                                data-target=".add4-modal" class="btn btn-cargo py-1 px-3" id="ButtonNext"
-                                                style=" font-size: 14px;" value="Add"></input>
-                                    </div>
-
-                                    <div class="row" id="add4inside">
-                                        <div class="col-12">
-                                            <div style="background-color: #e8f6f8;">
-                                                <div class="p-3">
-                                                    Company<br>
-                                                    First Name: <br>
-                                                    Last Name: <br>
-                                                    Street: <span></span> <br>
-                                                    Zip / Postal: <span></span> <br>
-                                                    Telephone: <span></span>
-                                                </div>
-                                                <div class="text-right py-2" style="border-bottom: solid 1px #00A2AE;">
-                                                    <a href="#" class="mr-2" id="remove4">Remove</a>
-                                                    <input type="button" id="#add4" data-toggle="modal"
-                                                        data-target=".add4-modal" class="btn btn-cargo mr-4 py-1 px-3"
-                                                        style=" font-size: 14px; background-color: #00A2AE;;"
-                                                        value="Edit"></input>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-
-                            </div>
-                            <!-- End / -->
-
-                        </div>
-
-
-                        <!-- Back & Next Buttons -->
                         <div class="row mt-5 mb-4">
 
                             <div class="col-6">
                                 <a href="cargo_date.php"><input type="button" class="btn btn-cargo py-2 px-5" id="ButtonNext"
                                         style="background-color:#f7f4f3; font-size: 18px; color: #899099; clip-path: polygon(0 34%, 14% 0, 100% 0, 100% 100%, 0% 100%);"
-                                        value="Back"></input></a>
+                                        value="<?php echo $lang['courier51'] ?>"></input></a>
                             </div>
 
                             <div class="col-6 text-right">
                                 <input type="submit" name="step-5" value="Next" class="btn btn-cargo py-2 px-5" id="ButtonNext"
-                                    style="background-color: #E5005B; font-size: 18px;" value="Next"></input>
+                                    style="background-color: #E5005B; font-size: 18px;" value="<?php echo $lang['courier52'] ?>"></input>
                             </div>
                         </div>
-                        <!-- End / -->
-
 
                 </div> <!-- 8 x 8 Col / -->
 
 
 
 
-                <!-- 3rd main col Summary -->
                 <div class=" col-xs-12 col-md-12 col-lg-4 col-md-4">
-                <div class="container summary-back p-4" style="font-size: 15px;">
-                    <div class="row">
-                        <div class="col-xs-12 col-xl-12">
-                            <p class="color s-title">SUMMARY</p>
+                    <div class="container summary-back p-4" style="font-size: 15px;">
+                        <div class="row">
+                            <div class="col-xs-12 col-xl-12">
+                                <p class="color s-title"><?php echo $lang['courier22'] ?></p>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="col-xs-12 col-xl-12">
-                            <i class="fa fa-map-marker color-green icon-location" aria-hidden="true"></i>
-                            <span id="pickLocation_show"></span>
+                        <div class="row">
+                            <div class="col-xs-12 col-xl-12">
+                                <i class="fa fa-map-marker color-green icon-location" aria-hidden="true"></i>
+                                <span id="pickLocation_show"></span>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="row mt-2">
-                        <div class="col-xs-12 col-xl-12">
-                            <i class="fa fa-map-marker color icon-location" aria-hidden="true"></i>
-                            <span id="deliveryLocation_show"></span>
+                        <div class="row mt-2">
+                            <div class="col-xs-12 col-xl-12">
+                                <i class="fa fa-map-marker color icon-location" aria-hidden="true"></i>
+                                <span id="deliveryLocation_show"></span>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="row mt-3">
-                        <div class="col-8">
-                            <img src="../assets/shippment/images/s1.png"><span style="color: 1c2c3f;"><span id="cargo_distance_show"></span> Km</span>
+                        <div class="row mt-3">
+                            <div class="col-8">
+                                <img src="../assets/shippment/images/s1.png"><span style="color: 1c2c3f;"><span id="cargo_distance_show"></span> Km</span>
+                            </div>
+                            <div class="">
+                                <i class="fa fa-clock-o" style="font-size: 23px;" aria-hidden="true"><span id="cargo_time_show"></span></i>
+                            </div>
                         </div>
-                        <div class="">
-                            <i class="fa fa-clock-o" style="font-size: 23px;" aria-hidden="true"><span id="cargo_time_show"></span></i>
-                        </div>
-                    </div>
 
-                    <div class="row mt-2">
-                        <div class="col-xs-6 col-xl-6">
-                            <img src="../assets/shippment/images/s2.png"> <span><span class="cargo_weight_show"></span> Kg</span>
+                        <div class="row mt-2">
+                            <div class="col-xs-6 col-xl-6">
+                                <img src="../assets/shippment/images/s2.png"> <span><span class="cargo_weight_show"></span> Kg</span>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="row mt-5">
-                        <div class="col-3">
-                            <img src="../assets/shippment/images/s3.png">
+                        <div class="row mt-5">
+                            <div class="col-3">
+                                <img src="../assets/shippment/images/s3.png">
+                            </div>
+                            <div class="">
+                                <span>Cargo Items: <span class="cargo_item_show">1</span><br>
+                                    <span class="cargo_length_show"><?php echo $lang['courier23'] ?></span>: cm <span class="cargo_width_show"><?php echo $lang['courier24'] ?></span>: cm <span class="cargo_height_show"><?php echo $lang['courier26'] ?></span>: cm<br>
+                                    <span class="cargo_weight_show"><?php echo $lang['courier27'] ?></span>: kg</span>
+                            </div>
                         </div>
-                        <div class="">
-                            <span>Cargo Items: <span class="cargo_item_show">1</span><br>
-                                <span class="cargo_length_show">length</span>: cm <span class="cargo_width_show">width</span>: cm <span class="cargo_height_show">height</span>: cm<br>
-                                <span class="cargo_weight_show">weight</span>: kg</span>
-                        </div>
-                    </div>
 
-                    <div class="row mt-4">
-                        <div class="col-xs-12 col-xl-12" >
-                            <p class="color s-title">COSTS</p>
+                        <div class="row mt-4">
+                            <div class="col-xs-12 col-xl-12" >
+                                <p class="color s-title"><?php echo $lang['courier28'] ?></p>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="col-xs-12 col-xl-12">
-                            <p class="" style="border-bottom: dashed .5px #00A2AE;">+ 0.35 CHF Fuel surcharge: 1%</p>
-                            <h1 style="border-bottom: solid .5px #00A2AE;"><span id="cargo_without_vat_show"></span></h1>
-                            <p class="text-right">without VAT</p>
-                            <h3><span id="cargo_vat_show"></span></h3>
-                            <div style="width: 100%; height: 1px; background-color: #00A2AE;"></div>
-                            <div style="width: 100%; height: 1px; background-color: #00A2AE; margin-top: 1px;"></div>
-                            <p class="text-right mt-1">with VAT</p>
+                        <div class="row">
+                            <div class="col-xs-12 col-xl-12">
+                                <p class="" style="border-bottom: dashed .5px #00A2AE;"><?php echo $lang['courier29'] ?></p>
+                                <h1 style="border-bottom: solid .5px #00A2AE;"><span id="cargo_without_vat_show"></span></h1>
+                                <p class="text-right"><?php echo $lang['courier30'] ?></p>
+                                <h3><span id="cargo_vat_show"></span></h3>
+                                <div style="width: 100%; height: 1px; background-color: #00A2AE;"></div>
+                                <div style="width: 100%; height: 1px; background-color: #00A2AE; margin-top: 1px;"></div>
+                                <p class="text-right mt-1"><?php echo $lang['courier31'] ?></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- second row of summary main row 
-                <div class="row mt-4">
-                    <div class="col-xs-12 col-xl-12">
-                        <div class="p-3 bussines-customer-div">
-                            <b>Business customers</b> Business customers profit from our Basic-, Flex- or Licence models. 
-                            With these models we cover your needs to 100%. You will find more information <a href="#">here</a>.
-                        </div>
-                    </div>
-                </div>
-                -->
-            </div>
 
                  <!-- Form /-->
 
@@ -788,7 +598,7 @@
     <div class="modal-dialog modal-lg ">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">SEARCH ADDRESS
+                <h5 class="modal-title" id="exampleModalLabel"><?php echo $lang['courier73'] ?>
                 </h5>
             </div>
 
@@ -796,7 +606,7 @@
                     <!-- First Row -->
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
-                            <label class="font-16 color">Name / Address / Location / Email</label>
+                            <label class="font-16 color"><?php echo $lang['courier74'] ?></label>
                             <input type="text" class="form-control rounded-0 border-input bg-transparent login-border typeahead" placeholder="" aria-describedby="helpId" name="pickup_search" id=pickup_search>
                         </div>
                         <div class="col-2">
@@ -816,7 +626,7 @@
     <div class="modal-dialog modal-lg ">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">SEARCH ADDRESS
+                <h5 class="modal-title" id="exampleModalLabel"><?php echo $lang['courier73'] ?>
                 </h5>
             </div>
 
@@ -824,7 +634,7 @@
                     <!-- First Row -->
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
-                            <label class="font-16 color">Name / Address / Location / Email</label>
+                            <label class="font-16 color"><?php echo $lang['courier74'] ?></label>
                             <input type="text" class="form-control rounded-0 border-input bg-transparent login-border typeahead" placeholder="" aria-describedby="helpId" name="deliver_search" id="deliver_search">
                         </div>
                         <div class="col-2">
@@ -839,269 +649,10 @@
     </div>
 </div>
 
-<!-- Address Book Modal End / -->
-
-<!-- Add1 Model -->
-
-<div class="modal fade add1-modal" id="#add1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">ACCESS RESTRICTION FOR PICKUP
-                </h5>
-            </div>
-                <div class="modal-body">
-                    <!-- First Row -->
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <h1 class="font-21">ACCESS RESTRICTIONS</h1>
-                            <label class="font-16 color">Is there an access restriction at the pickup location?</label>
-                            <select class="form-control border-input rounded-0"
-                                style="clip-path: polygon(0% 0%, 97% 0, 100% 52%, 100% 100%, 0 100%);" name="access_restriction_limitation" id="access_restriction_limitation">
-                                <option style="font-size: 14px;" <?php if(@$result['access_restriction_limitation']=="No restrictions")
-                                {
-                                  echo "selected";
-                                }?>>No restrictions</option>
-                                <option style="font-size: 14px;" <?php if(@$result['access_restriction_limitation']=="Small vehicles only (up to 3.5t)")
-                                {
-                                  echo "selected";
-                                }?>>Small vehicles only (up to 3.5t)</option>
-                                <option style="font-size: 14px;" <?php if(@$result['access_restriction_limitation']=="Only trucks with no trailer (up to 18t)")
-                                {
-                                  echo "selected";
-                                }?>>Only trucks with no trailer (up to 18t)</option>
-                            </select>
-                        </div>
-                    </div>
-                    <!-- End / -->
-
-                    <!-- Second Row -->
-                    <div class="row mt-4">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <label class="font-16 color">Is there a limitation in height at the pickup location?
-                                <span class="font-optional">(Optional)</span></label>
-                            <input type="text" class="form-control rounded-0 border-input bg-transparent" placeholder="" aria-describedby="helpId" name="access_restriction_limitation_height" value="<?php echo @$result['access_restriction_limitation_height'];?>" id="access_restriction_limitation_height">
-                            <div class="font-optional">Indication in meters</div>
-                        </div>
-                    </div>
-                    <!-- End / -->
-                </div>
-        </div>
-    </div>
-</div>
-
-<!-- Add1 Model / -->
 
 
 
-<!-- Add2 Model -->
 
-<div class="modal fade add2-modal" id="#add2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">ACCESS RESTRICTION FOR DELIVERY
-                </h5>
-            </div>
-                <div class="modal-body">
-                    <!-- First Row -->
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <h1 class="font-21">ACCESS RESTRICTIONS</h1>
-                            <label class="font-16 color">Is there an access restriction at the delivery
-                                location?</label>
-                            <select class="form-control border-input rounded-0"
-                                style="clip-path: polygon(0% 0%, 97% 0, 100% 52%, 100% 100%, 0 100%);" name="r_access_restriction_limitation" id="r_access_restriction_limitation">
-                                <option style="font-size: 14px;" <?php if(@$result['r_access_restriction_limitation']=="No restrictions")
-                                {
-                                  echo "selected";
-                                }?>>No restrictions</option>
-                                <option style="font-size: 14px;" <?php if(@$result['r_access_restriction_limitation']=="Small vehicles only (up to 3.5t)")
-                                {
-                                  echo "selected";
-                                }?>>Small vehicles only (up to 3.5t)</option>
-                                <option style="font-size: 14px;" <?php if(@$result['r_access_restriction_limitation']=="Only trucks with no trailer (up to 18t)")
-                                {
-                                  echo "selected";
-                                }?>>Only trucks with no trailer (up to 18t)</option>
-                            </select>
-                        </div>
-                    </div>
-                    <!-- End / -->
-
-                    <!-- Second Row -->
-                    <div class="row mt-4">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <label class="font-16 color">Is there a limitation in height at the delivery
-                                location?
-                                <span class="font-optional">(Optional)</span></label>
-                            <input type="text" class="form-control rounded-0 border-input bg-transparent" placeholder="" aria-describedby="helpId" name="r_access_restriction_limitation_height" value="<?php echo @$result['r_access_restriction_limitation_height'];?>" id="r_access_restriction_limitation_height">
-                            <div class="font-optional">Indication in meters</div>
-                        </div>
-                    </div>
-                    <!-- End / -->
-                </div>
-        </div>
-    </div>
-</div>
-
-<!-- Add2 Model / -->
-
-
-<!-- Add3 Modal -->
-
-<div class="modal fade add3-modal" id="#add3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">ADD ADDITIONAL PICKUP LOCATION
-                </h5>
-            </div>
-
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <h1 class="font-21">ADDITIONAL LOADING POINT</h1>
-                            <div class="form-group">
-                                <label class="font-16 color">Company</label>
-                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
-                                    placeholder="" aria-describedby="helpId" name="extra_company" value="<?php echo @$additional_data['extra_company'];?>" id="extra_company"> 
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div class="form-group">
-                                <label class="font-16 color">First Name</label>
-                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
-                                    placeholder="" aria-describedby="helpId" name="extra_name" value="<?php echo @$additional_data['extra_name'];?>" id="extra_name">
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div class="form-group">
-                                <label class="font-16 color">Last Name</label>
-                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
-                                    placeholder="" aria-describedby="helpId" name="extra_lastname" value="<?php echo @$additional_data['extra_lastname'];?>" id="extra_lastname">
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div class="form-group">
-                                <label class="font-16 color">Address</label>
-                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
-                                    placeholder="" aria-describedby="helpId" name="extra_address" value="<?php echo @$additional_data['extra_address'];?>" id="extra_address">
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div class="form-group">
-                                <label class="font-16 color">Zip / Location</label>
-                                <input type="text" class="form-control rounded-0 zip-input border-gray" placeholder="" aria-describedby="helpId" name="extra_zip" value="<?php echo @$additional_data['extra_zip'];?>" id="extra_zip">
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div class="form-group">
-                                <label class="font-16 color">Telephone</label>
-                                <input type="number" class="form-control rounded-0 border-input bg-transparent"
-                                    placeholder="" aria-describedby="helpId" name="extra_phone" value="<?php echo @$additional_data['extra_phone'];?>" id="extra_phone">
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div class="form-group">
-                                <label class="font-16 color">Enter details of the delivery location</label>
-                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
-                                    placeholder="" aria-describedby="helpId" name="extra_delivery_location" value="<?php echo @$additional_data['extra_delivery_location'];?>" id="extra_delivery_location">
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-        </div>
-    </div>
-</div>
-
-<!-- Add3 Modal End / -->
-
-
-<!-- Add4 Modal -->
-
-<div class="modal fade add4-modal" id="#add4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">ADD ADDITIONAL PICKUP LOCATION
-                </h5>
-            </div>
-
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <h1 class="font-21">ADDITIONAL UNLOADING POINT</h1>
-                            <div class="form-group">
-                                <label class="font-16 color">Company</label>
-                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
-                                    placeholder="" aria-describedby="helpId" name="r_extra_company" value="<?php echo @$r_additional_data['r_extra_company'];?>" id="r_extra_company">
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div class="form-group">
-                                <label class="font-16 color">First Name</label>
-                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
-                                    placeholder="" aria-describedby="helpId" name="r_extra_name" value="<?php echo @$r_additional_data['r_extra_name'];?>" id="r_extra_name">
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div class="form-group">
-                                <label class="font-16 color">Last Name</label>
-                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
-                                    placeholder="" aria-describedby="helpId" name="r_extra_lastname" value="<?php echo @$r_additional_data['r_extra_lastname'];?>" id="r_extra_lastname"> 
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div class="form-group">
-                                <label class="font-16 color">Address</label>
-                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
-                                    placeholder="" aria-describedby="helpId" name="r_extra_address" value="<?php echo @$r_additional_data['r_extra_address'];?>" id="r_extra_address">
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div class="form-group">
-                                <label class="font-16 color">Zip / Location</label>
-                                <input type="text" class="form-control rounded-0 zip-input border-gray" placeholder="" aria-describedby="helpId" name="r_extra_zip" value="<?php echo @$r_additional_data['r_extra_zip'];?>" id="r_extra_zip">
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div class="form-group">
-                                <label class="font-16 color">Telephone</label>
-                                <input type="number" class="form-control rounded-0 border-input bg-transparent"
-                                    placeholder="" aria-describedby="helpId" name="r_extra_phone" value="<?php echo @$r_additional_data['r_extra_phone'];?>" id="r_extra_phone">
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div class="form-group">
-                                <label class="font-16 color">Enter details of the delivery location</label>
-                                <input type="text" class="form-control rounded-0 border-input bg-transparent"
-                                    placeholder="" aria-describedby="helpId" name="r_extra_delivery_location" value="<?php echo @$r_additional_data['r_extra_delivery_location'];?>" id="r_extra_delivery_location">
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-        </div>
-    </div>
-</div>
 </form>
 </div> 
 
@@ -1226,8 +777,6 @@ $(document).ready(function(){
                     $("#addresspickup").val(response.addresspickup);
                     $("#pickupdetails").val(response.pickupdetails);
                     $("#refrence_no").val(response.refrence_no);
-                    $("#access_restriction_limitation").val(response.access_restriction_limitation);
-                    $("#access_restriction_limitation_height").val(response.access_restriction_limitation_height);
                     $("#company").val(response.company);
                     $("#city").val(response.city);
                     $("#country").val(response.country);
@@ -1278,8 +827,6 @@ $(document).ready(function(){
                     $("#r_street").val(response.r_street);
                     $("#r_pickupdetails").val(response.r_pickupdetails);
                     $("#r_refrence_no").val(response.r_refrence_no);
-                    $("#r_access_restriction_limitation").val(response.r_access_restriction_limitation);
-                    $("#r_access_restriction_limitation_height").val(response.r_access_restriction_limitation_height);
                     $("#r_company").val(response.r_company);
                     $("#r_city").val(response.r_city);
                     $("#r_country").val(response.r_country);

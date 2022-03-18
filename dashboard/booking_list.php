@@ -228,8 +228,8 @@
 												<tr class="row100 head">
 													<th class="th-sm"><b><?php echo $lang['booking-list2'] ?></b></th>
 													<th class="th-sm"><b><?php echo $lang['booking-list3'] ?></b></th>
-													<th class="th-sm"><b>Pickup Location</b></th>
-													<th class="th-sm"><b>Delivery Location</b></th>
+													<th class="th-sm"><b><?php echo $lang['booking-list13'] ?></b></th>
+													<th class="th-sm"><b><?php echo $lang['booking-list14'] ?></b></th>
 													<th class="th-sm"><b><?php echo $lang['booking-list8'] ?></b></th>
 													<th class="th-sm"><b><?php echo $lang['booking-list7'] ?></b></th>
 													<th class="text-center"><b><?php echo $lang['aaction'] ?></b></th>

@@ -40,10 +40,10 @@
 								<th><b><?php echo $lang['ltracking'] ?></b></th>
 								<th class="text-center"><b><?php echo $lang['ncustomer'] ?></b></th>
 								<th class="text-center"><b><?php echo $lang['lorigin'] ?></b></th>
-								<th class="text-center"><b>Payment</b></th>
-								<th class="text-center"><b>Pickup Location</b></th>
-								<th class="text-center"><b>Delivery Location</b></th>
-								<th class="th-sm" align='center'><b>View map</b></th>
+								<th class="text-center"><b><?php echo $lang['booking-list18'] ?></b></th>
+								<th class="text-center"><b><?php echo $lang['booking-list13'] ?></b></th>
+								<th class="text-center"><b><?php echo $lang['booking-list14'] ?></b></th>
+								<th class="text-center" align='center'><b><?php echo $lang['booking-list19'] ?></b></th>
 								<th class="text-center"><b><?php echo $lang['lstatusshipment'] ?></b></th>
 								<th class="text-center"><b><?php echo $lang['aaction'] ?></b></th>
 							</tr>

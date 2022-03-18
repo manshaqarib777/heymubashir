@@ -2600,7 +2600,10 @@
 		"courier84" => "seguro de transporte",
 		"courier85" => "Entrega de piso en el receptor",
 		"courier86" => "¿Puede el conductor depositar la mercancía en el receptor?",
-
+		"courier87" => "Dirección del remitente",
+		"courier88" => "Dirección del receptor",
+		"courier89" => "Imágenes de artículos de entrega",
+		"courier90" => "Zona",
 
 		'access_restriction_limitation' => 'restricción de acceso limitación',
 		'access_restriction_limitation_height' => 'access restriction limitation height',

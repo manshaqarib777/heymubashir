@@ -242,7 +242,7 @@ $files= glob("../files/".$row->id."/*.*");
         <table id="meta">
             <tr>
                 <td rowspan="5" style=" text-align: left;border-style: none;" width="80%">
-                <strong>Sender Address</strong> </br>
+                <strong><?php echo $lang['courier87'] ?></strong> </br>
                 <table id="items">
                     <b><?php echo $row->s_name; ?> <?php echo $row->lastname; ?></b></br> </br>
                     <?php echo $row->company; ?></br>
@@ -255,7 +255,7 @@ $files= glob("../files/".$row->id."/*.*");
             </tr>
             <tr>
                 <td rowspan="5" style=" text-align: left;border-style: none;" width="20%">
-                <strong>Receiver Address</strong> </br>
+                <strong><?php echo $lang['courier88'] ?></strong> </br>
                 <table id="items">
                     <b><?php echo $row->r_name; ?> <?php echo $row->r_lastname; ?></b></br> </br>
                     <?php echo $row->r_company; ?></br>
@@ -273,7 +273,7 @@ $files= glob("../files/".$row->id."/*.*");
             
         </div>
         <div class='col-md-6'>
-            <h3>Delivery Item Images</h3>
+            <h3><?php echo $lang['courier89'] ?></h3>
             <div class='row'>
                 <?php foreach ($files as $image) { ?>
                     <div class="col-md-3">

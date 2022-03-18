@@ -216,7 +216,7 @@ $files= glob("../files/".$row->id."/*.*");
     <table width="100%">
         <tr>
             <td style="border:0;border-right: 5px solid black;border-bottom: 5px solid black;text-align: center;" width="25%">
-                ZONE
+                <?php echo $lang['courier90'] ?>
                 <h1 style="font-size: 100px;"><?php echo substr(explode(' ', $row->deliveryLocation)[0],0, 2)?></h1>
             </td>
             <td style="border:0;border-bottom: 5px solid black;" width="75%">
@@ -240,7 +240,7 @@ $files= glob("../files/".$row->id."/*.*");
         <table id="meta">
             <tr>
                 <td rowspan="5" style=" text-align: left;border-style: none;" width="80%">
-                <strong>Sender Address</strong> </br>
+                <strong><?php echo $lang['courier87'] ?></strong> </br>
                 <table id="items">
                     <b><?php echo $row->s_name; ?> <?php echo $row->lastname; ?></b></br> </br>
                     <?php echo $row->company; ?></br>
@@ -253,7 +253,7 @@ $files= glob("../files/".$row->id."/*.*");
             </tr>
             <tr>
                 <td style=" text-align: left;border-style: none;">
-                <strong>Date :  <?php echo $row->deliver_date; ?></strong> </br>
+                <strong><?php echo $lang['ddate'] ?> :  <?php echo $row->deliver_date; ?></strong> </br>
                 </td>
             </tr>
         </table>   
@@ -288,7 +288,7 @@ $files= glob("../files/".$row->id."/*.*");
         <table id="meta">
             <tr>
                 <td rowspan="5" style=" text-align: left;border-style: none;" width="20%">
-                <strong>Receiver Address</strong> </br>
+                <strong><?php echo $lang['courier88'] ?></strong> </br>
                 <table id="items">
                     <b><?php echo $row->r_name; ?> <?php echo $row->r_lastname; ?></b></br> </br>
                     <?php echo $row->r_company; ?></br>

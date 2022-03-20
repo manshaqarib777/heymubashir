@@ -81,6 +81,7 @@
 											<optgroup label="Pacific Time Zone">
 											<option value="en"<?php if ($core->language == "en") echo " selected=\"selected\"";?> data-flag="us"> <?php echo $lang['tools-config63'] ?></option>
 											<option value="es"<?php if ($core->language == "es") echo " selected=\"selected\"";?> data-flag="es"> <?php echo $lang['tools-config64'] ?></option>
+											<option value="de"<?php if ($core->language == "de") echo " selected=\"selected\"";?> data-flag="de"> <?php echo $lang['tools-config73'] ?></option>
 											<!--<option value="fr"<?php if ($core->language == "fr") echo " selected=\"selected\"";?> data-flag="fr"> <?php echo $lang['tools-config65'] ?></option>-->
 											<!--<option value="it"<?php if ($core->language == "it") echo " selected=\"selected\"";?> data-flag="it"> <?php echo $lang['tools-config66'] ?></option>-->
 											<!--<option value="ru"<?php if ($core->language == "ru") echo " selected=\"selected\"";?> data-flag="ru"> Russian</option>-->

@@ -1471,6 +1471,7 @@
 		"tools-config70" => "Números de dígitos",
 		"tools-config71" => "Prefijo de letra",
 		"tools-config72" => "Número de dígitos en el consolidado de seguimiento. EJEMPLO: 0000001",
+		"tools-config73" => "Alemán",
 		
 		/** Tools List Office **/
 		"tools-office1" => "Office",

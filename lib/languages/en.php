@@ -1471,6 +1471,7 @@
 		"tools-config70" => "Digit Numbers",
 		"tools-config71" => "Letters in the follow-up",
 		"tools-config72" => "Number of digits in the tracking Consolidate. EXAMPLE: 0000001",
+		"tools-config73" => "Gernam",
 		
 		/** Tools List Office **/
 		"tools-office1" => "Office",

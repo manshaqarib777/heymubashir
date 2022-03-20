@@ -29,7 +29,45 @@
 		  . "font-family: Verdana; font-size: 14px; margin-left:auto; margin-right:auto'>" 
 		  . "<b>Warning:</b> Please delete the <b>setup</b> folder!</span></div>");
   endif;
-  
+
+// $de_array=[];
+// foreach (array_slice($lang, 1301, 1800) as $key => $value) {
+
+//     $curl = curl_init();
+
+//     curl_setopt_array($curl, [
+//         CURLOPT_URL => "https://microsoft-translator-text.p.rapidapi.com/translate?to=de&api-version=3.0&profanityAction=NoAction&textType=plain",
+//         CURLOPT_RETURNTRANSFER => true,
+//         CURLOPT_FOLLOWLOCATION => true,
+//         CURLOPT_ENCODING => "",
+//         CURLOPT_MAXREDIRS => 10,
+//         CURLOPT_TIMEOUT => 30,
+//         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+//         CURLOPT_CUSTOMREQUEST => "POST",
+//         CURLOPT_POSTFIELDS => "[\n    {\n        \"Text\": \".$value.\"\n    }\n]",
+//         CURLOPT_HTTPHEADER => [
+//             "content-type: application/json",
+//             "x-rapidapi-host: microsoft-translator-text.p.rapidapi.com",
+//             "x-rapidapi-key: b44995df8dmshc8e65841df7ad0bp1a7680jsn1b5d7c21a366"
+//         ],
+//     ]);
+
+//     $response = curl_exec($curl);
+//     $err = curl_error($curl);
+
+//     curl_close($curl);
+
+//     if ($err) {
+//         echo "cURL Error #:" . $err;
+//     } else {
+//         $response=json_decode($response,true);
+//         $de_array['"'.$key.'"']='"'.$response[0]['translations'][0]["text"].'"';
+
+//     }
+// }
+
+// print_r($de_array);
+// die();
   if (!$user->is_Admin())
 	redirect_to("login.php");
   

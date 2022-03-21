@@ -328,7 +328,7 @@ $files= glob("../files/".$row->id."/*.*");
         <div id="terms">
             <h5><?php echo $lang['inv-shipping18'] ?></h5>
              <table id="related_transactions" style="width: 100%">
-                <p align="justify"><?php echo cleanOut($core->interms);?></p>               
+                <p align="justify"><?php echo cleanOut($lang[$core->interms]);?></p>               
             </table>
             </br></br></br></br>
             <table id="signing">
@@ -344,8 +344,8 @@ $files= glob("../files/".$row->id."/*.*");
                     </td>
                 </tr>
                 <tr class="noBorder">
-                    <td align="center"><?php echo $core->signing_company;?></td>
-                    <td align="center"><?php echo $core->signing_customer;?></td>
+                    <td align="center"><?php echo $lang[$core->signing_company];?></td>
+                    <td align="center"><?php echo $lang[$core->signing_customer];?></td>
                 </tr>
             </table>
         </div>

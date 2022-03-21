@@ -2751,5 +2751,9 @@
 		'r_extra_location' => 'receptor extra ubicación',
 		'r_extra_phone' => 'receptor teléfono extra',
 		'r_extra_delivery_location' => 'receptor ubicación de entrega extra',
+
+		'interms' => 'ACEPTADO: Esta Factura es un valor de título de conformidad con lo dispuesto en el art. 3 de la ley 1231 del 17/08 de julio. La firma por terceros en representación, mandato u otra calidad en nombre del comprador implica su obligación de conformidad con el art. 640 del código de comercio.',
+		'signing_company' => 'NOMBRE QUIEN RECIBE',
+		'signing_customer' => 'FIRMA / SELLO QUIEN RECIBE',
 	);
 ?>

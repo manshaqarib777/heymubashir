@@ -2661,6 +2661,11 @@
 		'r_extra_location' => 'receiver extra_location',
 		'r_extra_phone' => 'receiver extra_phone',
 		'r_extra_delivery_location' => 'receiver extra_delivery_location',
+
+		'interms' => 'ACCEPTED: This Invoice is a title value in accordance with the provisions of art. 3 of law 1231 of July 17/08. The signature by third parties in representation, mandate or other quality on behalf of the buyer implies its obligation in accordance with art. 640 of the commercial code.',
+		'signing_company' => 'NAME WHO RECEIVES',
+		'signing_customer' => 'SIGNATURE / SEAL WHO RECEIVES',
+
 	  
 
 

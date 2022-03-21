@@ -3671,6 +3671,11 @@
 		"r_extra_address" => "receiver-extra_address", 
 		"r_extra_location" => "receiver-extra_location", 
 		"r_extra_phone" => "receiver extra_phone", 
-		"r_extra_delivery_location" => "receiver extra_delivery_location." 
+		"r_extra_delivery_location" => "receiver extra_delivery_location.",
+		
+		'interms' => 'AKZEPTIERT: Diese Rechnung ist ein Eigentumswert gemäß den Bestimmungen von Art. 3 des Gesetzes 1231 vom 17. Juli 2008. Die Unterzeichnung durch Dritte in Vertretung, Auftrag oder anderer Eigenschaft im Namen des Käufers impliziert seine Verpflichtung gemäß Art. 640 HGB.',
+		'signing_company' => 'NAME, DER EMPFÄNGT',
+		'signing_customer' => 'UNTERSCHRIFT / SIEGEL WER EMPFÄNGT',
+
 	)
 ?>

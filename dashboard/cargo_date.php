@@ -1314,12 +1314,12 @@
 
                     <div class="row">
                         <div class="col-xs-12 col-xl-12">
-                            <p class="" style="border-bottom: dashed .5px #00A2AE;"><?php echo $lang['courier29'] ?></p>
-                            <h1 style="border-bottom: solid .5px #00A2AE;"><span id="cargo_without_vat_show"></span></h1>
+                            <p class="" style="border-bottom: dashed .5px #01afee;"><?php echo $lang['courier29'] ?></p>
+                            <h1 style="border-bottom: solid .5px #01afee;"><span id="cargo_without_vat_show"></span></h1>
                             <p class="text-right"><?php echo $lang['courier30'] ?></p>
                             <h3><span id="cargo_vat_show"></span></h3>
-                            <div style="width: 100%; height: 1px; background-color: #00A2AE;"></div>
-                            <div style="width: 100%; height: 1px; background-color: #00A2AE; margin-top: 1px;"></div>
+                            <div style="width: 100%; height: 1px; background-color: #01afee;"></div>
+                            <div style="width: 100%; height: 1px; background-color: #01afee; margin-top: 1px;"></div>
                             <p class="text-right mt-1"><?php echo $lang['courier31'] ?></p>
                         </div>
                     </div>

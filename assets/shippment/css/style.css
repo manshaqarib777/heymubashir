@@ -56,16 +56,16 @@
 
 /* Form style */
 .info-about-cargo-title{
-	color: #00A2AE;
+	color: #01afee;
 	font-size: 25px;
 	/* font-weight: bold; */
 }
 .input-label{
-	color: #00A2AE;
+	color: #01afee;
 	font-size: 16px;
 }
 .color{
-	color: #00A2AE;
+	color: #01afee;
 }
 .color-green{
 	color: #84af0e;
@@ -75,7 +75,7 @@
 }
 
 .border-gray:focus{
-	border: solid 2px #B7CE11!important;
+	border: solid 2px #01afee!important;
 	box-shadow: none;
 }
 .zip-input{
@@ -88,15 +88,15 @@
 
 /* cargo item form */
 .cargo-item-head{
-	color: #00A2AE;
+	color: #01afee;
 	font-size: 21px;
 }
 .cargo-label{
-	color: #00A2AE;
+	color: #01afee;
 	font-size: 14px;
 }
 .btn-cargo{
-	background-color: #B7CE11;
+	background-color: #01afee;
 	border-radius: 0;
 	font-size: 18px;
 	color: #fdffe1;
@@ -131,7 +131,7 @@
 
 .border-input:focus{
 	box-shadow: none;
-	border-color:#B7CE11;
+	border-color:#01afee;
 }
 
 /* summary */

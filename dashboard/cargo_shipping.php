@@ -132,11 +132,11 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
                  <div>
                     <img src="../assets/shippment/images/1.png"  class="img-fluid">
                     <div>
-                        <p class="pt-2 digit" style="color: #00A2AE;" >1.
+                        <p class="pt-2 digit" style="color: #01afee;" >1.
                             <i class="fa fa-pencil" aria-hidden="true" style="font-size: 27px;"></i></p>
                         </div>
                         <div>
-                            <p class="after-digit-title" style="color: #00A2AE;" ><?php echo $lang['courier1'] ?></p>
+                            <p class="after-digit-title" style="color: #01afee;" ><?php echo $lang['courier1'] ?></p>
                         </div>
                     </div>
                 </div>
@@ -354,7 +354,7 @@ if (isset($_SESSION['courier_id']) && !isset($_GET['do'])) {
         </div>
 
         <!-- cargo 6th row -->
-        <div class="row pt-2" style="border-bottom: solid 1px #00A2AE;">
+        <div class="row pt-2" style="border-bottom: solid 1px #01afee;">
             <div class="col-sm-12 col-xs-12 col-xl-6">
                 <div class="form-group">
                     <label for="" class="cargo-label"><?php echo $lang['courier19'] ?></label><br>
@@ -491,7 +491,7 @@ else
     </div>
 
     <!-- cargo 6th row -->
-    <div class="row pt-2" style="border-bottom: solid 1px #00A2AE;">
+    <div class="row pt-2" style="border-bottom: solid 1px #01afee;">
         <div class="col-sm-12 col-xs-12 col-xl-6">
             <div class="form-group">
                 <label for="" class="cargo-label"><?php echo $lang['courier19'] ?></label><br>
@@ -600,12 +600,12 @@ else
                 <input type="hidden" name="cargo_without_vat" id="cargo_without_vat" value="<?php echo $result['cargo_without_vat'];?>">
                 <input type="hidden" name="cargo_distance" id="cargo_distance" value="<?php echo $result['cargo_distance'];?>" >
                 <input type="hidden" name="cargo_time" id="cargo_time" value="<?php echo $result['cargo_time'];?>">
-                <p class="" style="border-bottom: dashed .5px #00A2AE;"><?php echo $lang['courier29'] ?></p>
-                <h1 style="border-bottom: solid .5px #00A2AE;"><span id="cargo_without_vat_show"><?php echo $result['cargo_without_vat'];?></span></h1>
+                <p class="" style="border-bottom: dashed .5px #01afee;"><?php echo $lang['courier29'] ?></p>
+                <h1 style="border-bottom: solid .5px #01afee;"><span id="cargo_without_vat_show"><?php echo $result['cargo_without_vat'];?></span></h1>
                 <p class="text-right"><?php echo $lang['courier30'] ?></p>
                 <h3><span id="cargo_vat_show"><?php echo $result['cargo_vat'];?></span></h3>
-                <div style="width: 100%; height: 1px; background-color: #00A2AE;"></div>
-                <div style="width: 100%; height: 1px; background-color: #00A2AE; margin-top: 1px;"></div>
+                <div style="width: 100%; height: 1px; background-color: #01afee;"></div>
+                <div style="width: 100%; height: 1px; background-color: #01afee; margin-top: 1px;"></div>
                 <p class="text-right mt-1"><?php echo $lang['courier31'] ?></p>
             </div>
         </div>
@@ -770,7 +770,7 @@ else
     cargoadd += '</div></div></div>';
 
     // good stackable radio
-    cargoadd += '<row class="row pt-2" style="border-bottom: solid 1px #00A2AE;">';
+    cargoadd += '<row class="row pt-2" style="border-bottom: solid 1px #01afee;">';
     cargoadd += '<div class="col-sm-12 col-xs-12 col-xl-6">';
     cargoadd += '<div class="form-group">';
     cargoadd += '<label for="" class="cargo-label"><?php echo $lang['courier19'] ?></label><br>';

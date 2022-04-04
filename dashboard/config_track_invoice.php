@@ -102,7 +102,7 @@
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
-											<label for="lastName1"><i class="mdi mdi-gift" style="color:#7460ee"></i> <?php echo $lang['tools-config72'] ?></label>
+											<label for="lastName1"><i class="mdi mdi-gift" style="color:#01afee"></i> <?php echo $lang['tools-config72'] ?></label>
 											<input type="text" title="<?php echo $lang['tools-config69'] ?>" data-toggle="tooltip" class="form-control" name="track_consolidate" value="<?php echo $core->track_consolidate;?>" placeholder="<?php echo $lang['tools-config70'] ?>">
 										</div>
 									</div>

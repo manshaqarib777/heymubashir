@@ -240,21 +240,21 @@ $(function() {
             type: 'line',
             width: '100%',
             height: '50',
-            lineColor: '#7460ee',
-            fillColor: '#7460ee',
-            maxSpotColor: '#7460ee',
+            lineColor: '#01afee',
+            fillColor: '#01afee',
+            maxSpotColor: '#01afee',
             highlightLineColor: 'rgba(0, 0, 0, 0.2)',
-            highlightSpotColor: '#7460ee'
+            highlightSpotColor: '#01afee'
         });
         $("#spark4").sparkline([2, 4, 4, 6, 8, 5, 6, 4, 8, 6, 6, 2], {
             type: 'line',
             width: '100%',
             height: '50',
             lineColor: '#fff',
-            fillColor: '#7460ee',
-            maxSpotColor: '#7460ee',
+            fillColor: '#01afee',
+            maxSpotColor: '#01afee',
             highlightLineColor: 'rgba(0, 0, 0, 0.2)',
-            highlightSpotColor: '#7460ee'
+            highlightSpotColor: '#01afee'
         });
         $("#spark5").sparkline([2, 4, 4, 6, 8, 5, 6, 4, 8, 6, 6, 2], {
             type: 'line',
@@ -302,7 +302,7 @@ $(function() {
             barWidth: '8',
             resize: true,
             barSpacing: '5',
-            barColor: '#7460ee'
+            barColor: '#01afee'
         });
         $('#spark10').sparkline([0, 5, 6, 10, 9, 12, 4, 9], {
             type: 'bar',
@@ -336,7 +336,7 @@ $(function() {
             barWidth: '2',
             resize: true,
             barSpacing: '5',
-            barColor: '#7460ee'
+            barColor: '#01afee'
         });
         $('#sparklinedash3').sparkline([0, 5, 6, 10, 9, 12, 4, 9], {
             type: 'bar',
@@ -464,8 +464,8 @@ $(function() {
         },
         limitMax: false, // If false, the max value of the gauge will be updated if value surpass max
         limitMin: false, // If true, the min value of the gauge will be fixed unless you set it manually
-        colorStart: '#7460ee', // Colors
-        colorStop: '#7460ee', // just experiment with them
+        colorStart: '#01afee', // Colors
+        colorStop: '#01afee', // just experiment with them
         strokeColor: '#E0E0E0', // to see which ones work best for you
         generateGradient: true,
         highDpiSupport: true // High resolution support

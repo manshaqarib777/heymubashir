@@ -10,7 +10,7 @@
 										<p style="text-align: left;"><font size=6 face="arial"><strong><?php echo $row->service_options; ?></strong></font></p>										
 									</td>
 									<td width="25%">
-										<p style="text-align: center;"><?php echo "<img src='".$core->site_url."/uploads/logo.png' border='0' width='190' height='39'>";  ?></p>							
+										<p style="text-align: center;"><?php echo "<img src='".$core->site_url."/uploads/logo.png' border='0' height='150'>";  ?></p>							
 									</td>
 								</tr>
 							</tbody>

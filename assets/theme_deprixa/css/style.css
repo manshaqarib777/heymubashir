@@ -1228,6 +1228,9 @@ p {
   #topnav .navbar-toggle {
     display: none;
   }
+  .navbar-toggle-show {
+    display: block;
+  }
   #topnav #navigation {
     display: block !important;
   }
@@ -1372,6 +1375,9 @@ p {
   .navbar-toggle {
     display: block;
   }
+  /* .navbar-toggle-show {
+    display: none;
+  } */
 }
 
 @media (max-width: 375px) {
@@ -1380,6 +1386,12 @@ p {
   }
   #topnav .navbar-toggle .lines {
     margin-right: 0 !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .navbar-toggle-show {
+    display: none;
   }
 }
 

@@ -30,7 +30,7 @@
 		<div class="inner-wrapper">
 			<div class="logo-wrapper">
 				<button class="close-button"><img src="<?php SITEURL ?>assets/images/icon/icon19.svg" alt=""></button>
-				<?php echo ($core->logo) ? '<img src="'.SITEURL.'/uploads/'.$core->logo.'" alt="'.$core->site_name.'" class="logo" width="190" height="39"/>': $core->site_name;?>
+				<?php echo ($core->logo) ? '<img src="'.SITEURL.'/uploads/'.$core->logo.'" alt="'.$core->site_name.'" class="logo" width="190" height="50"/>': $core->site_name;?>
 			</div>
 
 			<div class="main-menu-list">

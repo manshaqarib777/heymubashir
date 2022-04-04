@@ -65,7 +65,7 @@
 				<div class="row">
 					<!-- column -->
 					<div class="col-lg-4">
-						<div class="m-r-10"><span class="text-secondary display-5"><i style="color:#6f42c1" class="mdi mdi-package-variant-closed"></i></span></div>
+						<div class="m-r-10"><span class="text-secondary display-5"><i style="color:#01afee" class="mdi mdi-package-variant-closed"></i></span></div>
 						<span><?php echo $lang['billing1'] ?></span>
 						<h3 class="m-b-0 m-t-30">
 							<?php echo $core->currency;?>
@@ -89,7 +89,7 @@
 					</div>
 					
 					<div class="col-lg-4">
-						<div class="m-r-10"><span class="text-secondary display-5"><i style="color:#6610f2" class="mdi mdi-gift"></i></span></div>
+						<div class="m-r-10"><span class="text-secondary display-5"><i style="color:#01afee" class="mdi mdi-gift"></i></span></div>
 						<span>Consolidados</span>
 						<h3 class="m-b-0 m-t-30">
 							<?php echo $core->currency;?>

@@ -626,7 +626,7 @@
 															<label class="custom-control custom-checkbox">
 																<input type="checkbox" class="custom-control-input" name="notifyClient" tabindex="0">
 																<span class="custom-control-indicator"></span>
-																<label><span><i class="ti-email" style="color:#6610f2"></i>&nbsp; Notify the customer is your shipment created?</span></label>
+																<label><span><i class="ti-email" style="color:#01afee"></i>&nbsp; Notify the customer is your shipment created?</span></label>
 															</label>
 														</div>
 													</div>

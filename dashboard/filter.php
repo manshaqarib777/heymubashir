@@ -158,7 +158,7 @@
 						echo '<i class="icon-file-text-alt"></i>Add License';
 					break;				
 				default:
-						echo '<i class="fas fas fa-key" style="color:#7460ee"></i> Activate License';
+						echo '<i class="fas fas fa-key" style="color:#01afee"></i> Activate License';
 					break;
 			}
 

@@ -47,7 +47,7 @@ box-sizing: border-box;-moz-box-sizing: border-box;width: 100%;height: 39px;line
 /* == File input == */ 
 .jstyling-file{position:relative;display:block;box-sizing:border-box;-moz-box-sizing:border-box;width:100%;height:45px;outline:none;border:2px solid #e4e4e4;border-radius:5px;background:#fff;color:#404040;appearance:normal;-moz-appearance:none;-webkit-appearance:none;margin:0;padding:3px 3px 5px 12px}
 .jstyling-file-f{overflow:hidden;white-space:nowrap;float:left;height:30px;line-height:30px}
-.jstyling-file-b{position:relative;overflow:hidden;float:right;color:#fff;background-color:#7460ee;height:30px;outline:none;border:0;border-radius:3px;font-size:13px;line-height:30px;cursor:default;margin:0;padding:0 15px}
+.jstyling-file-b{position:relative;overflow:hidden;float:right;color:#fff;background-color:#01afee;height:30px;outline:none;border:0;border-radius:3px;font-size:13px;line-height:30px;cursor:default;margin:0;padding:0 15px}
 .jstyling-file input[type=file]{opacity:0;filter:alpha(opacity=0);z-index:1;position:absolute;top:0;right:0;margin:0;padding:0}
 .jstyling-file-b:hover{background:rgba(0,0,0,0.8);-webkit-transition:all .35s ease;-moz-transition:all .35s ease;-o-transition:all .35s ease;transition:all .35s ease}
 
@@ -63,8 +63,8 @@ box-sizing: border-box;-moz-box-sizing: border-box;width: 100%;height: 39px;line
 .xform .radio i,.xform .checkbox i{position:absolute;top:5px;left:0;display:block;width:15px;height:15px;outline:none;border:2px solid #e4e4e4;border-radius:50%;background:#fff}
 .xform .checkbox i{border-radius:3px}
 .xform .radio input + i:after,.xform .checkbox input + i:after{position:absolute;opacity:0;transition:opacity .1s;-o-transition:opacity .1s;-ms-transition:opacity .1s;-moz-transition:opacity .1s;-webkit-transition:opacity .1s}
-.xform .radio input + i:after{content:'';top:2px;left:2px;width:8px;height:8px;border-radius:50%;background:#7460ee}
-.xform .checkbox input + i:after{content:'\f00c';top:-2px;left:-2px;width:17px;height:17px;font:normal 13px/17px FontAwesome;text-align:center;color:#7460ee}
+.xform .radio input + i:after{content:'';top:2px;left:2px;width:8px;height:8px;border-radius:50%;background:#01afee}
+.xform .checkbox input + i:after{content:'\f00c';top:-2px;left:-2px;width:17px;height:17px;font:normal 13px/17px FontAwesome;text-align:center;color:#01afee}
 .xform .radio input:checked + i:after,.xform .checkbox input:checked + i:after{opacity:1}
 .xform .inline-group{margin-bottom:-4px}
 .xform .inline-group:after{content:'';display:table;clear:both}

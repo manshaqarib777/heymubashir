@@ -132,7 +132,7 @@ $(document).ready(function(){
 					<!-- col -->
 					<div class="col-md-6 col-sm-12 col-lg-3">
 						<div class="d-flex align-items-center">
-							<div class="m-r-10"><span class="display-5"><i class="ti ti-stats-up" style="color:#6610f2"></i></span></div>
+							<div class="m-r-10"><span class="display-5"><i class="ti ti-stats-up" style="color:#01afee"></i></span></div>
 							<div><span class="text-muted"><?php echo $lang['left1013'] ?></span>
 								<h3 class="font-medium m-b-0"> 
 								<?php

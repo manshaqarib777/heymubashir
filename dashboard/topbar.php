@@ -8,36 +8,36 @@
                     <!-- Logo -->
                     <!-- ============================================================== -->
                     <?php if($row->userlevel == 9){?>
-                    <a class="navbar-brand" href="index.php">
+                    <a class="navbar-brand" href="index.php" style="justify-content:center;">
                         <!-- Logo text -->
                         <span class="logo-text">
                              <!-- dark Logo text -->
-                             <?php echo ($core->logo) ? '<img src="'.SITEURL.'/uploads/'.$core->logo.'" width="238px" alt="'.$core->site_name.'" />': $core->site_name;?>
+                             <?php echo ($core->logo) ? '<img src="'.SITEURL.'/uploads/'.$core->logo.'" width="122px" alt="'.$core->site_name.'" />': $core->site_name;?>
                         </span>
                     </a>
                     <?php }else if($row->userlevel == 1){?>
-                    <a class="navbar-brand" href="client.php">
+                    <a class="navbar-brand" href="client.php" style="justify-content:center;">
                         <!-- Logo text -->
                         <span class="logo-text">
                              <!-- dark Logo text -->
-                             <?php echo ($core->logo) ? '<img src="'.SITEURL.'/uploads/'.$core->logo.'" width="238px" alt="'.$core->site_name.'" />': $core->site_name;?>
+                             <?php echo ($core->logo) ? '<img src="'.SITEURL.'/uploads/'.$core->logo.'" width="122px" alt="'.$core->site_name.'" />': $core->site_name;?>
                         </span>
                     </a>
                     <?php }else if($row->userlevel == 2){?>
-                    <a class="navbar-brand" href="index.php">
+                    <a class="navbar-brand" href="index.php" style="justify-content:center;">
                         <!-- Logo text -->
                         <span class="logo-text">
                              <!-- dark Logo text -->
-                             <?php echo ($core->logo) ? '<img src="'.SITEURL.'/uploads/'.$core->logo.'" width="238px" alt="'.$core->site_name.'" />': $core->site_name;?>
+                             <?php echo ($core->logo) ? '<img src="'.SITEURL.'/uploads/'.$core->logo.'" width="122px" alt="'.$core->site_name.'" />': $core->site_name;?>
                         </span>
                     </a>
                     
                     <?php }else if($row->userlevel == 3){?>
-                    <a class="navbar-brand" href="dash_driver.php">
+                    <a class="navbar-brand" href="dash_driver.php" style="justify-content:center;">
                         <!-- Logo text -->
                         <span class="logo-text">
                              <!-- dark Logo text -->
-                             <?php echo ($core->logo) ? '<img src="'.SITEURL.'/uploads/'.$core->logo.'" width="238px" alt="'.$core->site_name.'" />': $core->site_name;?>
+                             <?php echo ($core->logo) ? '<img src="'.SITEURL.'/uploads/'.$core->logo.'" width="122px" alt="'.$core->site_name.'" />': $core->site_name;?>
                         </span>
                     </a>
                     <?php } ?>

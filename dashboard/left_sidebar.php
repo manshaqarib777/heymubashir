@@ -75,7 +75,7 @@
 							</ul>
                         </li> -->
 						
-						<!-- <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="ti ti-gift" style="color:#6610f2"></i><span class="hide-menu"> <?php echo $lang['conso-lidate'] ?></span></a>
+						<!-- <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="ti ti-gift" style="color:#01afee"></i><span class="hide-menu"> <?php echo $lang['conso-lidate'] ?></span></a>
                             <ul aria-expanded="false" class="collapse  first-level">
 								<li class="sidebar-item"><a href="consolidate_list.php" class="sidebar-link"><i class="mdi mdi-check"></i><span class="hide-menu"> <?php echo $lang['left10'] ?> </span></a></li>
 								<li class="sidebar-item"><a href="consolidate.php" class="sidebar-link"><i class="fas fa-cubes" style="color:#975EF7"></i><span class="hide-menu"> <?php echo $lang['left11'] ?> </span></a></li>
@@ -86,7 +86,7 @@
 						
 						<!-- <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-chess-board" style="color:#17a2b8"></i><span class="hide-menu"> <?php echo $lang['left12'] ?></span></a>
                             <ul aria-expanded="false" class="collapse  first-level">
-								<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark" href="customs_news.php" aria-expanded="false"><i class="fas fas fa-box-open" style="color:#7460ee"></i><span class="hide-menu"> <?php echo $lang['left13'] ?> </span></a></li>
+								<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark" href="customs_news.php" aria-expanded="false"><i class="fas fas fa-box-open" style="color:#01afee"></i><span class="hide-menu"> <?php echo $lang['left13'] ?> </span></a></li>
 								<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark" href="customs_locked_packages.php" aria-expanded="false"><i class="fas fas fa-lock" style="color:#f62d51"></i><span class="hide-menu"> <?php echo $lang['left14'] ?> </span></a></li>
 								<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark" href="customs_liberate_packages.php" aria-expanded="false"><i class="ti-share" style="color:#36bea6"></i><span class="hide-menu"> <?php echo $lang['left15'] ?> </span></a></li>								
 							</ul>
@@ -105,7 +105,7 @@
 
 						<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-hand-holding-usd" style="color:#2962FF"></i><span class="hide-menu"> <?php echo $lang['left25'] ?></span></a>
                             <ul aria-expanded="false" class="collapse  first-level">
-								<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark" href="shipping.php?do=billings" aria-expanded="false"><i class="mdi mdi-credit-card-plus" style="color:#7460ee"></i><span class="hide-menu" > <?php echo $lang['left26'] ?> </span></a></li>
+								<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark" href="shipping.php?do=billings" aria-expanded="false"><i class="mdi mdi-credit-card-plus" style="color:#01afee"></i><span class="hide-menu" > <?php echo $lang['left26'] ?> </span></a></li>
 								<!-- <li class="sidebar-item"><a href="paymentlist_online.php" class="sidebar-link"><i class="fas fa-donate"></i><span class="hide-menu"> <?php echo $lang['left27'] ?> </span></a></li> -->
 							</ul>
                         </li>
@@ -199,7 +199,7 @@
 							</ul>
                         </li> -->
 						
-						<!-- <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="ti ti-gift" style="color:#6610f2"></i><span class="hide-menu"> <?php echo $lang['conso-lidate'] ?></span></a>
+						<!-- <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="ti ti-gift" style="color:#01afee"></i><span class="hide-menu"> <?php echo $lang['conso-lidate'] ?></span></a>
                             <ul aria-expanded="false" class="collapse  first-level">
 								<li class="sidebar-item"><a href="consolidate_list.php" class="sidebar-link"><i class="mdi mdi-check"></i><span class="hide-menu"> <?php echo $lang['left10'] ?> </span></a></li>
 								<li class="sidebar-item"><a href="consolidate.php" class="sidebar-link"><i class="fas fa-cubes" style="color:#975EF7"></i><span class="hide-menu"> <?php echo $lang['left11'] ?> </span></a></li>
@@ -210,7 +210,7 @@
 						
 						<!-- <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-chess-board" style="color:#17a2b8"></i><span class="hide-menu"> <?php echo $lang['left12'] ?></span></a>
                             <ul aria-expanded="false" class="collapse  first-level">
-								<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark" href="customs_news.php" aria-expanded="false"><i class="fas fas fa-box-open" style="color:#7460ee"></i><span class="hide-menu"> <?php echo $lang['left13'] ?> </span></a></li>
+								<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark" href="customs_news.php" aria-expanded="false"><i class="fas fas fa-box-open" style="color:#01afee"></i><span class="hide-menu"> <?php echo $lang['left13'] ?> </span></a></li>
 								<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark" href="customs_locked_packages.php" aria-expanded="false"><i class="fas fas fa-lock" style="color:#f62d51"></i><span class="hide-menu"> <?php echo $lang['left14'] ?> </span></a></li>
 								<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark" href="customs_liberate_packages.php" aria-expanded="false"><i class="ti-share" style="color:#36bea6"></i><span class="hide-menu"> <?php echo $lang['left15'] ?> </span></a></li>								
 							</ul>
@@ -287,7 +287,7 @@
 
 							<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark" href="cargo_shipping.php" aria-expanded="false"><i class="mdi mdi-clock-fast" style="color:#f62d51"></i><span class="hide-menu"> Create Shipment </span></a></li>
 							
-							<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark" href="quote.php" aria-expanded="false"><i class="ti ti-stats-up" style="color:#6610f2"></i><span class="hide-menu"> <?php echo $lang['left39'] ?> </span></a></li>
+							<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark" href="quote.php" aria-expanded="false"><i class="ti ti-stats-up" style="color:#01afee"></i><span class="hide-menu"> <?php echo $lang['left39'] ?> </span></a></li>
 							
 							<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark" href="booking_list.php" aria-expanded="false"><i class="mdi mdi-cube-send"></i><span class="hide-menu"> <?php echo $lang['left40'] ?> </span></a></li>
 							

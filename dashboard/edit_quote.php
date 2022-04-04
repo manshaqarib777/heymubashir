@@ -151,7 +151,7 @@
 															 $fn = $rowa['fname'];
 															 $ln = $rowa['lname'];
 														?> 
-														<span style="color:#6610f2"><?php echo $fn;?> <?php echo $ln;?> </span>
+														<span style="color:#01afee"><?php echo $fn;?> <?php echo $ln;?> </span>
 														</h3><br> <?php echo $lang['left269'] ?> <strong><?php echo $row->order_quote;?></strong> | <?php echo $lang['left270'] ?> <strong><?php echo $row->status_quote;?></strong>
 													</div>
 													
@@ -652,7 +652,7 @@
 															 $fn = $rowa['fname'];
 															 $ln = $rowa['lname'];
 														?> 
-														<span style="color:#6610f2"><?php echo $fn;?> <?php echo $ln;?> </span>
+														<span style="color:#01afee"><?php echo $fn;?> <?php echo $ln;?> </span>
 														</h3><br> <?php echo $lang['left269'] ?> <strong><?php echo $row->order_quote;?></strong> | <?php echo $lang['left270'] ?> <strong><?php echo $row->status_quote;?></strong>
 													</div>
 													
@@ -1263,7 +1263,7 @@
 																			<label class="custom-control custom-checkbox">
 																				<input type="checkbox" class="custom-control-input" name="idquote" value="3" tabindex="0" >
 																				<span class="custom-control-indicator"></span>
-																				<label><span><i class="ti ti-stats-up" style="color:#6610f2"></i>&nbsp; <?php echo $lang['left314'] ?></span></label>
+																				<label><span><i class="ti ti-stats-up" style="color:#01afee"></i>&nbsp; <?php echo $lang['left314'] ?></span></label>
 																			</label>
 																		</div>
 																	</div>

@@ -177,7 +177,7 @@ $row = Core::getRowById(Core::contaTable, Filter::$id);
 
 	<table style="width: 100%;">
 		<tr>
-			<th style="width: 20%;" align="left"><?php echo "<img src='".$core->site_url."/uploads/logo.png' border='0' width='190' height='39'>";  ?></th>
+			<th style="width: 20%;" align="left"><?php echo "<img src='".$core->site_url."/uploads/logo.png' border='0' height='150'>";  ?></th>
 			<th style="width: 50%;"  align="center">
 				<h2 class="headtitle" align="center"><strong><?php echo $core->site_name; ?></strong></h2>
 				<p class="head p" align="center">

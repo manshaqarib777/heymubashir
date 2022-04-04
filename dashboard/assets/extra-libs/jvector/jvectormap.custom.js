@@ -68,7 +68,7 @@ $('#india').vectorMap({
             zoomOnScroll: false,
             regionStyle : {
                 initial : {
-                    fill : '#7460ee'
+                    fill : '#01afee'
                 }
             }
         });

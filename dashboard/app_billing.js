@@ -17,16 +17,16 @@ app_billing.controller('myCtrls', function ($scope, $http) {
                     datasets: [
 						{
                             label:  'Total delivery of sales delivered',
-                            backgroundColor: '#6f42c1',
-                            borderColor: '#6f42c1',
+                            backgroundColor: '#01afee',
+                            borderColor: '#01afee',
                             data: data.yeardelivered,
                             borderWidth: 3,
                             fill: false
                         },
 						{
                             label: 'Total Consolidated Shipping',
-                            backgroundColor: '#6610f2',
-                            borderColor: '#6610f2',
+                            backgroundColor: '#01afee',
+                            borderColor: '#01afee',
                             data: data.prevconslidated,
                             borderWidth: 3,
                             fill: false

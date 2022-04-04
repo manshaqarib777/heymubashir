@@ -84,7 +84,7 @@
             <div class="auth-box">
                 <div id="loginform">
                     <div class="logo">
-                        <span class="db"><?php echo ($core->logo) ? '<img src="'.SITEURL.'/uploads/'.$core->logo.'" alt="'.$core->site_name.'" class="logo" width="190" height="39"/>': $core->site_name;?></span>
+                        <span class="db"><?php echo ($core->logo) ? '<img src="'.SITEURL.'/uploads/'.$core->logo.'" alt="'.$core->site_name.'" class="logo" width="190" height="50"/>': $core->site_name;?></span>
 						<br><br>
                         <h5 class="font-medium m-b-20">Log in</h5>
                     </div>

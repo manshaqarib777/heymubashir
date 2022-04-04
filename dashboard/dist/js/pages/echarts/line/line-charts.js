@@ -219,7 +219,7 @@ $(function() {
                 },
 
                 // Add custom colors
-                color: ['#2962FF', '#7460ee', '#f62d51', '#36bea6', '#212529'],
+                color: ['#2962FF', '#01afee', '#f62d51', '#36bea6', '#212529'],
 
                 // Enable drag recalculate
                 calculable: true,
@@ -297,7 +297,7 @@ $(function() {
                 },
 
                 // Add custom colors
-                color: ['#212529', '#7460ee', '#f62d51', '#36bea6','#2962FF' ],
+                color: ['#212529', '#01afee', '#f62d51', '#36bea6','#2962FF' ],
 
                 // Enable drag recalculate
                 calculable: true,

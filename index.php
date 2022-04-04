@@ -64,19 +64,23 @@
             <div class="container">
                 <!-- Logo container-->
                 <div>
-                   <a class="logo" href="index.php"><?php echo ($core->logo) ? '<img src="'.SITEURL.'/uploads/'.$core->logo.'" alt="'.$core->site_name.'"  width="190" height="39"/>': $core->site_name;?></a>
+                   <a class="logo" href="index.php"><?php echo ($core->logo) ? '<img src="'.SITEURL.'/uploads/'.$core->logo.'" alt="'.$core->site_name.'"  width="190" height="70"/>': $core->site_name;?></a>
                 </div>                 
                 <div class="buy-button">
                     <a href="sign-up.php" class="btn btn-light-outline rounded"><i class="mdi mdi-account-alert ml-3 icons"></i> <?php echo $lang['left112'] ?></a>
                 </div><!--end login button-->
-                <div class="menu-extras">
+                <div class="menu-extras" style="float: initial;">
                     <div class="menu-item">
                         <!-- Mobile menu toggle-->
-                        <a class="navbar-toggle">
-                            <div class="lines">
-                                <span></span>
-                                <span></span>
-                                <span></span>
+                        <a class="navbar-toggle" style="width: 100%;text-align: left;justify-content: center;">
+                            <div style="display: inline-flex;">
+                                <h4 class="mt-4"><?php echo $core->site_name ?>, <?php echo $lang['left114'] ?></h4> 
+                                <div class="lines" style="margin-left: 200px;">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
                             </div>
                         </a>
                         <!-- End mobile menu toggle-->
@@ -108,7 +112,7 @@
                             <div class="col-lg-4 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div class="login-page bg-white shadow rounded p-4">
                                     <div class="text-center">
-                                        <h4 class="mb-4"><?php echo $core->site_name ?>, <?php echo $lang['left114'] ?></h4>  
+                                        <h4 class="mb-4 navbar-toggle-show"><?php echo $core->site_name ?>, <?php echo $lang['left114'] ?></h4>  
                                     </div>
 									<div id="msgholder2">
 										<?php print Filter::$showMsg;?>

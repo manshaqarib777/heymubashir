@@ -62,7 +62,7 @@
 				<div class="row" ng-app="app_billing">
 					<!-- column -->
 					<div class="col-lg-3">
-						<div class="m-r-10"><span class="text-secondary display-5"><i style="color:#7460ee" class="mdi mdi-package-variant-closed"></i></span></div>
+						<div class="m-r-10"><span class="text-secondary display-5"><i style="color:#01afee" class="mdi mdi-package-variant-closed"></i></span></div>
 						<span><?php echo $lang['lshippping'] ?></span>
 						<h2 class="m-b-0 m-t-30">
 							<?php echo $core->currency;?>

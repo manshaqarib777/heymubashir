@@ -206,7 +206,7 @@ $row = Core::getRowById(Core::consolTable, Filter::$id);
         <tr>
             <td style="border: 0;  text-align: left" width="18%">
 			<div id="logo">
-					<?php echo "<img src='".$core->site_url."/uploads/logo.png' border='0' width='190' height='39'>";  ?>
+					<?php echo "<img src='".$core->site_url."/uploads/logo.png' border='0' height='150'>";  ?>
             </td>
 			<td style="border: 0;  text-align: center" width="56%">
 				<?php echo $lang['inv-shipping1'] ?>: <?php echo $core->c_nit; ?> </br> 				 

@@ -92,7 +92,7 @@ table th {
 
             <td  style="width: 33%; color: #444444;">
                
-			   <?php echo "<img src='".$core->site_url."/uploads/logo.png' border='0' width='190' height='39'>";  ?>
+			   <?php echo "<img src='".$core->site_url."/uploads/logo.png' border='0' height='150'>";  ?>
                 
             </td>
 			<td style="width: 34%;">

@@ -56,16 +56,16 @@
 
 /* Form style */
 .info-about-cargo-title{
-	color: #01afee;
+	color: black;
 	font-size: 25px;
 	/* font-weight: bold; */
 }
 .input-label{
-	color: #01afee;
+	color: black;
 	font-size: 16px;
 }
 .color{
-	color: #01afee;
+	color: black;
 }
 .color-green{
 	color: #84af0e;
@@ -88,11 +88,11 @@
 
 /* cargo item form */
 .cargo-item-head{
-	color: #01afee;
+	color: black;
 	font-size: 21px;
 }
 .cargo-label{
-	color: #01afee;
+	color: black;
 	font-size: 14px;
 }
 .btn-cargo{

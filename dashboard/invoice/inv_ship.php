@@ -216,14 +216,16 @@ $files= glob("../files/".$row->id."/*.*");
         <tr>
             <td style="border: 0;  text-align: left" width="25%">
             <div id="logo">
-                    <?php echo "<img src='".$core->site_url."/uploads/logo.png' border='0' height='150'>";  ?>
+                    <?php echo "<img src='".$core->site_url."/uploads/logo.png' border='0' height='200'>";  ?>
             </td>
             <td style="border: 0;  text-align: center" width="50%">
+            </td>
+            <!-- <td style="border: 0;  text-align: center" width="50%">
                 <?php echo $lang['inv-shipping1'] ?>: <?php echo $core->c_nit; ?> </br>                  
                 <?php echo $lang['inv-shipping2'] ?>: <?php echo $core->c_phone; ?></br>
                 <?php echo $lang['inv-shipping3'] ?>: <?php echo $core->site_email; ?></br>
                 <?php echo $lang['inv-shipping4'] ?>: <?php echo $core->c_address; ?> - <?php echo $core->c_country; ?>-<?php echo $core->c_city; ?>
-            </td>
+            </td> -->
             <td style="text-align: center" width="25%">
                 <div class="card">
                     <div class="card-body">

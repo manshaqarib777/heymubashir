@@ -221,7 +221,7 @@ $files= glob("../files/".$row->id."/*.*");
             </td>
             <td style="border:0;border-bottom: 5px solid black;" width="75%">
             <div id="logo">
-                    <?php echo "<img src='".$core->site_url."/uploads/logo.png' border='0' height='150'>";  ?>
+                    <?php echo "<img src='".$core->site_url."/uploads/logo.png' border='0' height='200'>";  ?>
             </td>
             <!-- <td style="border: 0;  text-align: center" width="56%">
                 <?php echo $lang['inv-shipping1'] ?>: <?php echo $core->c_nit; ?> </br>                  
